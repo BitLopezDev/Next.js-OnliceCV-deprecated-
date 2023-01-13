@@ -2,13 +2,13 @@
 
 
 window.onerror = function (msg, url, lineNo, columnNo, error) {
-    /* var mensajeerror = [
-         'Message: ' + msg,
-         'URL: ' + url,
-         'Line: ' + lineNo,
-         'Column: ' + columnNo,
-         'Error object: ' + JSON.stringify(error)
-     ].join(' - ');*/
+    // var mensajeerror = [
+    //      'Message: ' + msg,
+    //      'URL: ' + url,
+    //      'Line: ' + lineNo,
+    //      'Column: ' + columnNo,
+    //      'Error object: ' + JSON.stringify(error)
+    //  ].join(' - ');
 
     var mensajeerror = {
         Message: msg,
@@ -32,8 +32,7 @@ window.onerror = function (msg, url, lineNo, columnNo, error) {
     document.getElementById('ActualAlert').classList.remove('active');
 
     document.getElementById("abrirModal").click();
-    /*Por un bug cuando inteto abrir el modal no puedo, entonces me ví 
-    forzado a hacerle click a un botón escondido. Es un parche polo elegante pero funciona*/
+    
 
 
 }
@@ -42,6 +41,7 @@ window.onerror = function (msg, url, lineNo, columnNo, error) {
 
 function cargadoDOMAny() {
     document.getElementById("cerrarModal").click();
+    alert('Hola');
     //cerrarModal
     // $('#ElModal').modal({ show: true});
     /*if (lady = 3) {

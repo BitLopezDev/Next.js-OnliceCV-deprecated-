@@ -4,6 +4,7 @@ import Image from 'next/image';
 import PHP_OOP from './../../Public/assets/users/Santiago/credenciales/NextU/PHP_OOP.png';
 import HTML5 from './../../Public/assets/users/Santiago/credenciales/NextU/HTML5.png';
 import JavaScript from './../../Public/assets/users/Santiago/credenciales/NextU/JavaScript.png'; import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
+import './../../scripts/scripts';
 
 const Section1 = () => {
     return (

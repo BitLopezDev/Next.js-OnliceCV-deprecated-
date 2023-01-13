@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/components/Head/SEOHead.js"  ],
+, "src/components/Head/SEOHead.js", "src/scripts/common.js"  ],
   "exclude": [
     "node_modules"
   ]
