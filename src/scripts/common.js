@@ -32,7 +32,7 @@ window.onerror = function (msg, url, lineNo, columnNo, error) {
     document.getElementById('ActualAlert').classList.remove('active');
 
     document.getElementById("abrirModal").click();
-    
+
 
 
 }

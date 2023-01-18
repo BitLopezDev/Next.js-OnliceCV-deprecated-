@@ -14,11 +14,11 @@ type LayoutProps = {
 const Layout = ({ children }: LayoutProps) => {
     return (
         <>
-            {/* <Script src={"./../../scripts/common.js"} ></Script>*/ }
+            {/* <Script src={"./../../scripts/common.js"} ></Script>*/}
 
-            <Script src="./scripts/Libs/bootstrap.bundle.js" />
+            {/* <Script src="./scripts/Libs/bootstrap.bundle.js" /> */}
 
-            <Script src="./scripts/Libs/jquery-3.6.1.min.js" />
+            {/* <Script src="./scripts/Libs/jquery-3.6.1.min.js" /> */}
 
             <Headf ogType="website">
 
@@ -34,11 +34,11 @@ const Layout = ({ children }: LayoutProps) => {
 
             <Container text>
 
-                <section id="GlobalSection">
+                <main id="GlobalMain">
                     {children}
 
 
-                </section>
+                </main>
 
             </Container>
 

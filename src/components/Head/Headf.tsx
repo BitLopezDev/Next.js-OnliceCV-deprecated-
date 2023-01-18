@@ -17,7 +17,7 @@ const TheHead = ({
 
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta httpEquiv="Content-Type" content="text/html" />
-            {/* <meta name="description" content="CV online de Santiago Comesaña" /> */}
+             {/* <meta name="description" content="CV online de Santiago Comesaña" />  */}
             <meta name="keywords" content="Santiago Comesaña, CV Online, desarrollador" />
             <meta name="author" content="Santiago Comesaña López" />
             <meta name="robots" content="index, nofollow, noarchive" />
