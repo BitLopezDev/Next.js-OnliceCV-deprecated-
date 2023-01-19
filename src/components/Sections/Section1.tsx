@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import Image from 'next/image';
 import './../../styles/fullstack.module.scss';
 // ./../../assets/users/Santiago/credenciales/NextU/PHP_OOP.png
 import PHP_OOP from './../../Public/assets/users/Santiago/credenciales/NextU/PHP_OOP.png';
 import HTML5 from './../../Public/assets/users/Santiago/credenciales/NextU/HTML5.png';
-import JavaScript from './../../Public/assets/users/Santiago/credenciales/NextU/JavaScript.png'; import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
+import JavaScript from './../../Public/assets/users/Santiago/credenciales/NextU/JavaScript.png';
+import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
+import { cargarBadges, cargadoDOMfullstack } from './../../scripts/sections/section1';
+
 //import './../../scripts/common';
 /*import './../../scripts/Libs/bootstrap';
 import './../../scripts/Libs/bootstrap.bundle';
@@ -13,13 +16,26 @@ import './../../scripts/index';*/
 
 
 const Section1 = () => {
+    useLayoutEffect(() => {
+       // require("bootstrap/dist/js/bootstrap.bundle.min.js");
+        cargadoDOMfullstack();
+    })
     return (
         <React.Fragment>
-           
+
+            <center>
+                <div className="row justify-content-center">
+                    <div className="col-sm-3 " style={{ maxWidth: 290 }}>
+                        <h2 id='quiensoy'>
+                            Quién soy:</h2>
+                    </div>
+                    <div className="col-sm-3 " style={{ maxWidth: 280, minHeight: 30 }}></div>
+                </div>
+            </center>
             <section id="section1" className="row justify-content-center  ">
 
-                <div id="carouselcontainer" className="col-sm-3  fondoantigradiente justify-content-center"
-                    style={{ minHeight: 160, paddingTop: 30, maxWidth: 280 }}>
+                <div id="carouselcontainer" className="col-sm-4  fondoantigradiente justify-content-center"
+                    style={{ minHeight: 160, paddingTop: 30, maxWidth: 350, paddingLeft: 40 }}>
                     <center>
 
                         {/* <!-- Carousel --> */}
@@ -36,19 +52,19 @@ const Section1 = () => {
                             <div className="carousel-inner " style={{ minHeight: 160 }}>
                                 <div id="carousel-item-1" className="carousel-item active">
                                     <center>
-                                        <Image src={PHP_OOP} id="carouselImage1" alt="PHP OOP" width={120} height={120} className="d-block" />
+                                        <Image src={PHP_OOP} id="carouselIMG1" alt="PHP OOP" width={120} height={120} className="d-block" />
                                     </center>
                                 </div>
 
                                 <div className="carousel-item  " id="carousel-item-2">
                                     <center>
-                                        <Image id="carouselImage2" src={HTML5} alt="HTML 5"
+                                        <Image id="carouselIMG2" src={HTML5} alt="HTML 5"
                                             className="d-block" width={120} height={120} />
                                     </center>
                                 </div>
                                 <div className="carousel-item" id="carousel-item-3">
                                     <center>
-                                        <Image id="carouselImage3" src={JavaScript}
+                                        <Image id="carouselIMG3" src={JavaScript}
                                             alt="JavaScript" className="d-block" width={120} height={120} />
                                     </center>
                                 </div>
@@ -77,8 +93,8 @@ const Section1 = () => {
                     </center>
                     {/* <!--</div id="carouselcontainer">--> */}
                 </div>
-                <div className="col-sm-3 fondogradiente justify-content-center" data-bs-toggle="tooltip"
-                    title="Puede hacer click en los datos personales para más información y click nuevamente para cerrar.">
+                <div className="col-sm-6 fondogradiente justify-content-center" data-bs-toggle="tooltip"
+                    title="Puede hacer click en los datos personales para más información y click nuevamente para cerrar." >
                     <center>
                         <h4 style={{ paddingTop: 15 }}>Sobre mí:</h4>
                         <ul className='ul'>

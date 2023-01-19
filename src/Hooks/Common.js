@@ -1,7 +1,7 @@
 //To solve incompatibilities from old project migration I will be using this hook.
 const common = () => {
 
-    useEffect(() => {
+    useLayoutEffect(() => {
     
         window.onerror = function (msg, url, lineNo, columnNo, error) {
             // var mensajeerror = [

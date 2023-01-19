@@ -166,6 +166,14 @@ ul li {
     margin: 0;
 }
 
+#quiensoy {
+    text-align: center !important;
+    padding-bottom: 5px;
+    float: left !important;
+    padding-left: 0;
+    margin-left: 0;
+}
+
 /*.cursoAccordion p{
     align-self: left;
     justify-content: left;

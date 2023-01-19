@@ -2,13 +2,13 @@
 carouselNext
 
 */
-window.addEventListener("load", cargadoDOMindex);
+window.addEventListener("load", cargadoDOMfullstack);
 /*const carouselNext = document.getElementById('carouselNext');
 const carouselPrevious = document.getElementById('carouselPrevious');
 carouselPrevious.onclick = carouselpatch();
 carouselNext.onclick = carouselpatch();*/
 
-async function cargadoDOMindex() {
+async function cargadoDOMfullstack() {
 
     let iFromWhileOnload = 0;
     var intervalId = window.setInterval(function () {
