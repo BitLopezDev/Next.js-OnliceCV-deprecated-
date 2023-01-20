@@ -64,54 +64,14 @@ class Section2 extends Component {
     render() {
         const { activeItem } = this.state
 
-        return (
-            <React.Fragment>
-                <br />
-                <br />
+const Section1 = () => {
+    return (
+        <React.Fragment>
+    
+            
+        </React.Fragment>
 
-                <Menu pointing secondary>
-                    <Menu.Item
-                        name='Desarrollador Web 2016'
-
-                        active={activeItem === 'Desarrollador Web 2016'}
-                        onClick={this.handleItemClick}
-                    />
-                    <Menu.Item
-                        name='Frontend con JS 2022'
-
-                        active={activeItem === 'Frontend con JS 2022'}
-                        onClick={this.handleItemClick}
-                    />
-                    <Menu.Item
-                        name='Otros Cursos 2022'
-
-                        active={activeItem === 'Otros Cursos 2022'}
-                        onClick={
-                            this.handleItemClick
-
-                        }
-                    />
-
-                </Menu>
-
-                <Segment id='wd' className=''>
-
-                    <WebDev2016></WebDev2016>
-                </Segment>
-                <Segment id='FrontEnd' className='seesconde'>
-
-                    <FrontEndNextU></FrontEndNextU>
-                </Segment>
-                <Segment id='otros' className='seesconde'>
-
-                    <OtrosNextU></OtrosNextU>
-
-                </Segment>
-                {/* <img src='https://react.semantic-ui.com/images/wireframe/media-paragraph.png' /> */}
-
-            </React.Fragment>
-        )
-    }
+    );
 }
 
 
