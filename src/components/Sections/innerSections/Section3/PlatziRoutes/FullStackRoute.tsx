@@ -18,7 +18,7 @@ const FullStackRoute = () => {
                     <Item.Content>
                         <Item.Header as='a'>Full Stack Developer con JavaScript | 2023</Item.Header>
                         <Item.Meta> <div className="progress">
-                            <div className="progress-bar fondogradiente" style={{ width: '100%' }}>100%</div>
+                            <div className="progress-bar fondogradiente" style={{ width: '66%' }}>66%</div>
                         </div></Item.Meta>
                         <Item.Description>
                             <p>En este curso Profundicé en mis conocimientos como desarrollador web conociendo Node, Webpack, Next.js, refrescando el conocimiento en bases de datos, y entrando más a profundidad en el asíncronismo y las nuevas funcionalidad de JavaScript.</p>

@@ -18,7 +18,7 @@ const FullStackNextRoute = () => {
                     <Item.Content>
                         <Item.Header as='a'>Full Stack Developer con Next.js | 2023</Item.Header>
                         <Item.Meta> <div className="progress">
-                            <div className="progress-bar fondogradiente" style={{ width: '100%' }}>100%</div>
+                            <div className="progress-bar fondogradiente" style={{ width: '14%' }}>14%</div>
                         </div></Item.Meta>
                         <Item.Description>
                             <p>En este curso profundizo mis conocimientos en Next.js gracias a herramientas como GraphQL, aprendo optimización y deploy a producción, manejo de grandes Datasets, y mucho más.</p>
