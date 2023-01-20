@@ -6,7 +6,8 @@ import { FullStackRoute } from './innerSections/Section3/PlatziRoutes/FullStackR
 import { FrontendReactRoute } from './innerSections/Section3/PlatziRoutes/FrontendReactRoute';
 import { FullStackNextRoute } from './innerSections/Section3/PlatziRoutes/FullStackNextRoute';
 import { HTMLCSSRoute } from './innerSections/Section3/PlatziRoutes/HTMLCSSRoute';
-
+import { JSaPRoute } from './innerSections/Section3/PlatziRoutes/JSaPRoute'
+import { Web3 } from './innerSections/Section3/PlatziRoutes/Web3';
 
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 //import './../../scripts/common';
@@ -114,20 +115,20 @@ class Section3 extends Component {
                             <FullStackRoute />
 
                         </Segment>
-                        <Segment id='FDR' className='seesconde'>
+                        <Segment id='FDR' className='seesconde' style={{ marginTop: 0 }}>
                             <FrontendReactRoute />
                         </Segment>
-                        <Segment id='FSN' className='seesconde'>
+                        <Segment id='FSN' className='seesconde' style={{ marginTop: 0 }}>
                             <FullStackNextRoute />
                         </Segment>
-                        <Segment id='HCaP' className='seesconde'>
+                        <Segment id='HCaP' className='seesconde' style={{ marginTop: 0 }}>
                             <HTMLCSSRoute />
                         </Segment>
-                        <Segment id='JaP' className='seesconde'>
-                            JaP
+                        <Segment id='JaP' className='seesconde' style={{ marginTop: 0 }}>
+                            <JSaPRoute />
                         </Segment>
-                        <Segment id='Web3' className='seesconde'>
-                            Web3
+                        <Segment id='Web3' className='seesconde' style={{ marginTop: 0 }}>
+                            <Web3 />
                         </Segment>
                     </Grid.Column>
                 </Grid>

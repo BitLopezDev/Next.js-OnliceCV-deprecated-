@@ -27,7 +27,7 @@ const FullStackRoute = () => {
                     </Item.Content>
                 </Item>
             </Item.Group>
-            <div style={{ 'overflow': 'scroll', maxHeight: 225 }}>
+            <div style={{ 'overflow': 'scroll', maxHeight: 170 }}>
                 <h4>Cursos relevantes de la ruta:</h4>
 
                 <table className="table table-striped" >
@@ -68,7 +68,7 @@ const FullStackRoute = () => {
                         <tr>
                             <td><Image src='https://static.platzi.com/media/achievements/piezas-profesional-nextjs_badge-c9a806c6-e240-45da-81da-c206b0611e84.png' width={26} /></td>
                             <td>Curso Profesional de Next.js</td>
-                            <td>0% | <a href='' target='_blank'>ver certificado</a></td>
+                            <td>0% | {/*  <a href='' target='_blank'>ver certificado</a>*/}</td>
                         </tr>
                         <tr>
                             <td><Image src='https://static.platzi.com/media/achievements/badge-fundamentos-de-bases-de-datos-cc5eff2a-a7e0-4110-af5d-a47b628611da.png' width={26} /></td>
