@@ -9,6 +9,9 @@ import { HTMLCSSRoute } from './innerSections/Section3/PlatziRoutes/HTMLCSSRoute
 import { JSaPRoute } from './innerSections/Section3/PlatziRoutes/JSaPRoute'
 import { Web3 } from './innerSections/Section3/PlatziRoutes/Web3';
 
+
+
+
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 //import './../../scripts/common';
 /*import './../../scripts/Libs/bootstrap';
@@ -121,7 +124,11 @@ class Section3 extends Component {
                         <Segment id='FSN' className='seesconde' style={{ marginTop: 0 }}>
                             <FullStackNextRoute />
                         </Segment>
+
                         <Segment id='HCaP' className='seesconde' style={{ marginTop: 0 }}>
+
+
+
                             <HTMLCSSRoute />
                         </Segment>
                         <Segment id='JaP' className='seesconde' style={{ marginTop: 0 }}>
