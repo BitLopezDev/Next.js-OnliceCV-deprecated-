@@ -16,9 +16,9 @@ const FrontendReactRoute = () => {
                     </Item.Image>
 
                     <Item.Content>
-                        <Item.Header as='a'>FrontEnd a profundidad con React.js | 2023</Item.Header>
+                        <Item.Header as='a'>FrontEnd con React.js | 2023</Item.Header>
                         <Item.Meta> <div className="progress">
-                            <div className="progress-bar fondogradiente" style={{ width: '100%' }}>100%</div>
+                            <div className="progress-bar fondogradiente" style={{ width: '14%' }}>14%</div>
                         </div></Item.Meta>
                         <Item.Description>
                             <p>En este curso Profundizo en mis conocimientos en React.js con mejor manejo de estado, de React Router, y mucho más.</p>
@@ -27,7 +27,7 @@ const FrontendReactRoute = () => {
                     </Item.Content>
                 </Item>
             </Item.Group>
-            <div style={{ 'overflow': 'scroll', maxHeight: 340 }}>
+            <div style={{ 'overflow': 'scroll', maxHeight: 225 }}>
                 <h4>Cursos relevantes de la ruta:</h4>
 
                 <table className="table table-striped" >
@@ -64,7 +64,7 @@ const FrontendReactRoute = () => {
                             <td>Curso de Progressive Web Aps con React</td>
                             <td>0% |  <a href='' target='_blank'>ver certificado</a></td>
                         </tr>
-                        
+
                         {/* <tr>
                             <td><Image src="" width={26} /></td>
                             <td>Terminal de Linux</td>

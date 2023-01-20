@@ -5,6 +5,7 @@ import './../../styles/fullstack.module.scss';
 import { FullStackRoute } from './innerSections/Section3/PlatziRoutes/FullStackRoute';
 import { FrontendReactRoute } from './innerSections/Section3/PlatziRoutes/FrontendReactRoute';
 import { FullStackNextRoute } from './innerSections/Section3/PlatziRoutes/FullStackNextRoute';
+import { HTMLCSSRoute } from './innerSections/Section3/PlatziRoutes/HTMLCSSRoute';
 
 
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
@@ -120,7 +121,7 @@ class Section3 extends Component {
                             <FullStackNextRoute />
                         </Segment>
                         <Segment id='HCaP' className='seesconde'>
-                            HCaP
+                            <HTMLCSSRoute />
                         </Segment>
                         <Segment id='JaP' className='seesconde'>
                             JaP
