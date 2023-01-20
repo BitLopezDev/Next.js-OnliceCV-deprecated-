@@ -34,7 +34,7 @@ const Layout = ({ children }: LayoutProps) => {
 
             <Container text>
 
-                <main id="GlobalMain">
+                <main id="GlobalMain" style={{ 'overflow': 'scroll' }}>
                     {children}
 
 
