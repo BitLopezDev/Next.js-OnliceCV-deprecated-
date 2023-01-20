@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import { Menu, Segment, Grid } from 'semantic-ui-react'
 import './../../styles/fullstack.module.scss';
 // ./../../assets/users/Santiago/credenciales/NextU/PHP_OOP.png
-
+import { FullStackRoute } from './innerSections/Section3/PlatziRoutes/FullStackRoute';
+import { FrontendReactRoute } from './innerSections/Section3/PlatziRoutes/FrontendReactRoute';
+import { FullStackNextRoute } from './innerSections/Section3/PlatziRoutes/FullStackNextRoute';
 
 
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
@@ -12,7 +14,7 @@ import './../../scripts/Libs/bootstrap.bundle';
 import './../../scripts/index';*/
 
 
-function hideElement(segment, ...others) {
+function hideElement(segment) {
     console.log(segment);
     const segmentsArray = ['FSJS', 'FDR', 'FSN', 'HCaP', 'JaP', 'Web3',]
 
@@ -37,11 +39,11 @@ class Section3 extends Component {
 
     state = { activeItem: 'Desarrollador Web 2016' }
 
-    handleItemClick = (e, { name }) => {
+    handleItemClick = (e, { name, segment }) => {
         this.setState({ activeItem: name })
 
 
-        //  hideElement(segment, 'lady');
+        hideElement(segment);
     }
 
     render() {
@@ -107,14 +109,15 @@ class Section3 extends Component {
                     </Grid.Column>
 
                     <Grid.Column stretched width={12}>
-                        <Segment id='FSJS'>
-                            FSJS
+                        <Segment id='FSJS' >
+                            <FullStackRoute />
+
                         </Segment>
                         <Segment id='FDR' className='seesconde'>
-                            FDR
+                            <FrontendReactRoute />
                         </Segment>
                         <Segment id='FSN' className='seesconde'>
-                            FSN
+                            <FullStackNextRoute />
                         </Segment>
                         <Segment id='HCaP' className='seesconde'>
                             HCaP
@@ -128,7 +131,7 @@ class Section3 extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <hr />
+
 
 
             </React.Fragment >
