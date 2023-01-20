@@ -6,8 +6,12 @@ import { FullStackRoute } from './innerSections/Section3/PlatziRoutes/FullStackR
 import { FrontendReactRoute } from './innerSections/Section3/PlatziRoutes/FrontendReactRoute';
 import { FullStackNextRoute } from './innerSections/Section3/PlatziRoutes/FullStackNextRoute';
 import { HTMLCSSRoute } from './innerSections/Section3/PlatziRoutes/HTMLCSSRoute';
+<<<<<<< HEAD
 import { JSaPRoute } from './innerSections/Section3/PlatziRoutes/JSaPRoute'
 import { Web3 } from './innerSections/Section3/PlatziRoutes/Web3';
+=======
+
+>>>>>>> 8bbd54fc9cef7293afceabe34065f770ad6b29bb
 
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 //import './../../scripts/common';
@@ -121,7 +125,11 @@ class Section3 extends Component {
                         <Segment id='FSN' className='seesconde' style={{ marginTop: 0 }}>
                             <FullStackNextRoute />
                         </Segment>
+<<<<<<< HEAD
                         <Segment id='HCaP' className='seesconde' style={{ marginTop: 0 }}>
+=======
+                        <Segment id='HCaP' className='seesconde'>
+>>>>>>> 8bbd54fc9cef7293afceabe34065f770ad6b29bb
                             <HTMLCSSRoute />
                         </Segment>
                         <Segment id='JaP' className='seesconde' style={{ marginTop: 0 }}>
