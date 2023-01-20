@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import Negro from '../../public/assets/users/Santiago/imágenes/Negro.png';
-import GitHub from '../../public/assets/users/system/GitHub.svg';
-import GitHubOrg from '../../public/assets/users/system/Org.png';
-import LinkedIn from '../../public/assets/users/system/LinkedIn.svg';
+import Logo from '../../../public/assets/users/Santiago/imágenes/Web/circle.png';
+import GitHub from '../../../public/assets/users/system/GitHub.svg';
+import GitHubOrg from '../../../public/assets/users/system/Org.png';
+import LinkedIn from '../../../public/assets/users/system/LinkedIn.svg';
 // import './../../../../node_modules/bootstrap/dist/css/bootstrap.bundle.css';
 import { useRouter } from 'next/router'
 import { Menu, Container } from 'semantic-ui-react'
@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <Image src={Negro} alt="Avatar Logo" //style=//{`width:40px;`}
+          <Image src={Logo} alt="Avatar Logo" //style=//{`width:40px;`}
             className="rounded-pill avatar" width={40} />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contentnavbar">
