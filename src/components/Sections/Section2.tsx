@@ -69,6 +69,17 @@ class Section2 extends Component {
                 <br />
                 <br />
 
+                <center>
+                    <div style={{ maxWidth: 500 }}>
+
+                        <h2>
+
+                            Estudios Técnicos en NextU:</h2>
+                        <h6>Desarrollador Web | Frontend Developer con JS | Otros</h6>
+                    </div>
+                </center>
+                <br />
+
 
                 <Menu pointing secondary>
                     <Menu.Item
@@ -110,7 +121,7 @@ class Section2 extends Component {
                 </Segment>
                 {/* <img src='https://react.semantic-ui.com/images/wireframe/media-paragraph.png' /> */}
 
-            </React.Fragment>
+            </React.Fragment >
         )
     }
 }
