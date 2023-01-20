@@ -34,7 +34,7 @@ const TheHead = ({
     	
     	 /> */}
 
-            <title>{title}</title>
+            {/* <title>{title}</title> */}
         </Head>
 
     );

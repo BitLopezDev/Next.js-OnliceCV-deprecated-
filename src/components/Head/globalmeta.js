@@ -1,5 +1,5 @@
 const globalMeta = {
-	siteName: "CV Online | Web developer",
+	//siteName: "CV Online | Web developer" || "CV Online | Cybersecurity",
 	siteUrl: "https://santiagocomesanalopez.dev",
 	siteLogo: "https://localhost:3000/images/logo.png",
 	email: "santiaocomesanalopez@gmail.com",

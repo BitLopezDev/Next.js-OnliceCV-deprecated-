@@ -1,22 +1,34 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 import Logo from '../../../public/assets/users/Santiago/imágenes/Web/circle.png';
 import GitHub from '../../../public/assets/users/system/GitHub.svg';
 import GitHubOrg from '../../../public/assets/users/system/Org.png';
 import LinkedIn from '../../../public/assets/users/system/LinkedIn.svg';
 // import './../../../../node_modules/bootstrap/dist/css/bootstrap.bundle.css';
-import { useRouter } from 'next/router'
-import { Menu, Container } from 'semantic-ui-react'
+import { Router, useRouter } from 'next/router'
+import { Menu, Container } from 'semantic-ui-react';
+
+
 const Navbar = () => {
+
   return (
 
     <nav className="navbar navbar-expand-sm  fixed-top fondoantigradiente">
 
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <Image src={Logo} alt="Avatar Logo" //style=//{`width:40px;`}
-            className="rounded-pill avatar" width={40} />
-        </a>
+        <Link href="/" legacyBehavior>
+          <a className="navbar-brand" href="#">
+
+
+            <Image src={Logo} alt="Avatar Logo" //style=//{`width:40px;`}
+              className="rounded-pill avatar" width={40} />
+
+
+
+          </a>
+        </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contentnavbar">
           <span className="navbar-toggler-icon"></span>
         </button>
