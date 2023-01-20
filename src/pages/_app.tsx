@@ -43,7 +43,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
                 </Head>
             </Headf>
             <Component {...pageProps} ></Component>
-            <p>Click me!</p>
+            
 
         </React.Fragment>
     )
