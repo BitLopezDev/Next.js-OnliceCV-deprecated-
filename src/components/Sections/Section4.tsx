@@ -28,14 +28,14 @@ const Section4 = () => {
 
             <br /> <br />
             <center>
-            <h2>
-                Sobre quienes me formaron:</h2></center>
-                <br />
+                <h2>
+                    Sobre quienes me formaron:</h2></center>
+            <br />
             <Grid columns='three' divided centered>
                 <Grid.Row>
 
                     <Grid.Column>
-                        <Card>
+                        <Card style={{ marginLeft: '-50px' }}>
                             <Image src={Object.entries(NextU)[0].slice(1)} wrapped ui={false} />
                             <Card.Content>
                                 <Card.Header>NextU</Card.Header>
@@ -54,7 +54,7 @@ const Section4 = () => {
                         </Card>
                     </Grid.Column>
                     <Grid.Column>
-                        <Card>
+                        <Card style={{ marginLeft: 50 }}>
                             <Image src={Object.entries(Platzi)[0].slice(1)} wrapped ui={false} />
                             <Card.Content>
                                 <Card.Header>Platzi</Card.Header>
@@ -75,6 +75,40 @@ const Section4 = () => {
 
 
             </Grid>
+            <br />
+
+            <hr />
+            <br />
+            <div className="card w-60" style={{ width: '100%', backgroundColor: 'white !important' }} >
+                <div className="card-img-top d-flex align-items-center ">
+                    <div>
+                        <Image className="img-fluid" src="./assets/users/system/NextU.png" alt="NextU" />
+                    </div>
+
+                    <p className="card-text"><strong>Next University</strong> me dio en 2015/2016 las bases elementales de la
+                        programación y la informática que me acompañan desde entonces en todos mis razonamientos lógicos
+                        Ahora, en 2022, profundicé en mi conocimiento de programación web con importantes actualizaciones como
+                        funciones asíncronas, React.js, flex y grid.
+                    </p>
+                </div>
+
+
+            </div>
+            <div className="card w-60" style={{ width: '100%', backgroundColor: 'white !important' }}>
+                <div className="card-img-top d-flex align-items-center">
+                    <div>
+                        <Image className="img-fluid" src="./assets/users/system/platzi.png" alt="Platzi" />
+                    </div>
+
+                    <p className="card-text"><strong>Platzi</strong> me permite profundizar en mis nuevos conocimientos y, con una
+                        metodología diferente, me enseñó a ver los conceptos de otra manera. En Platzi puedo expandir mis
+                        conocimientos hasta un nivel mucho máz avanzado, y con una garantía indiscutible, puesto que todas las
+                        evaluaciones requieren un mínimo de 90% para ser aprobadas. En esta academia, una vez terminados todos
+                        los cursos, tendré muchísimo más que ofrecer. </p>
+                </div>
+
+
+            </div>
 
         </React.Fragment>
 
