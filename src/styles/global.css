@@ -3,6 +3,8 @@
     --gradiente: linear-gradient(90deg, rgba(27, 164, 216, 1) 0%, rgba(67, 127, 227, 1) 35%, rgba(151, 53, 252, 1) 100%);
     --antigradiente: linear-gradient(90deg, rgba(151, 53, 252, 1) 0%, rgba(67, 127, 227, 1) 35%, rgba(27, 164, 216, 1) 100%);
     --niceblue: rgba(67, 127, 227, 1);
+    --cyanblue: rgba(27, 164, 216, 1);
+    --gradienteazul: linear-gradient(90deg, rgba(27, 164, 216, 0.8141456411666229) 0%, rgba(67, 127, 227, 1) 100%);
     /*linear-gradient(90deg, rgba(27,164,216,1) 0%, rgba(67,127,227,1) 35%, rgba(151,53,252,1) 100%)*/
 }
 
@@ -129,15 +131,19 @@ main>#section1>div:nth-child(2) {
 
 ul {
     align-items: left;
+
 }
 
 ul li {
+
     float: left;
     padding-left: 0;
     margin-left: 0;
-    align-self: left;
+    margin-right: auto;
+    align-self: left !important;
     height: auto;
     line-height: auto;
+    /*padding-top: 10px;*/
 
 }
 
@@ -243,7 +249,8 @@ border-bottom-left-radius: 3px;*/
 /* ////////////////////////// INDEX //////////////////////// */
 
 .barraLateral {
-    background-color: red;
+    background: var(--gradienteazul);
+    /*rgba(151, 53, 252, 1)/*/
     height: 100vh;
     width: 25%;
     min-width: 300px;

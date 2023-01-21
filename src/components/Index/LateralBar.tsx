@@ -1,5 +1,5 @@
 import React from 'react';
-import { List } from 'semantic-ui-react';
+import { List, Icon } from 'semantic-ui-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Logo from './../../../public/assets/users/Santiago/imágenes/Web/circle.png';
@@ -17,7 +17,7 @@ const LateralBar = () => {
 
 
                 <Image src={Logo} alt="Avatar Logo" //style=//{`width:40px;`}
-                    className="rounded-pill " width={200} />
+                    className="rounded-pill " width={150} />
 
             </center>
             <br />
@@ -46,20 +46,69 @@ const LateralBar = () => {
                 </div> */}
                 <List style={{ padding: 20 }}>
                     <List.Item>
-                        <List.Icon name='mail' />
-                        <List.Content><a href='mailto:santiagocomesanalopez@gmail.com'>santiagocomesanalopez@gmail.com</a></List.Content>
+                        <List.Icon name='mail' size='large' />
+
+                        <List.Content><a href='mailto:santiagocomesanalopez@gmail.com' style={{ color: 'white' }}>santiagocomesanalopez@gmail.com</a></List.Content>
                     </List.Item>
                     <List.Item>
-                        <List.Icon name='phone' />
-                        <List.Content>097.104.930</List.Content>
+                        <List.Icon name='phone' size='large' />
+                        <List.Content><h5>097.104.930</h5></List.Content>
                     </List.Item>
                     <List.Item>
-                        <List.Icon name='paper plane' />
+                        <List.Icon name='paper plane' size='large' />
                         <List.Content>
-                            097.104.930
+                            <h5>097.104.930</h5>
+                        </List.Content>
+                    </List.Item>
+                    <List.Item>
+                        <List.Icon name='point' size='large' />
+                        <List.Content>
+                            <h5>Montevideo, Uruguay</h5>
                         </List.Content>
                     </List.Item>
 
+                    <List.Item>
+                        <List.Icon name='flag' size='large' />
+                        <List.Content>
+                            <h5>Oriental | Ciudadano Natural</h5>
+                        </List.Content>
+                    </List.Item>
+                    <List.Item>
+                        <List.Icon name='birthday cake' size='large' />
+                        <List.Content>
+                            <h5>20 años | 15/06/2002</h5>
+                        </List.Content>
+                    </List.Item>
+                    <List.Item>
+                        <List.Icon name='male' size='large' />
+                        <List.Content>
+                            <h5>Hombre cis (él)</h5>
+                        </List.Content>
+                    </List.Item>
+
+                    {/*  <List.Item>
+                        <List.Icon name='point' size='large' />
+                        <List.Content>
+                            <h5>Montevideo, Uruguay</h5>
+                        </List.Content>
+                    </List.Item> */}
+
+
+                    <br />
+
+                    <List.Item as='li' value='*'>
+                        <h5>Referencia:</h5>
+                        <List.Item as='ul'>
+                            <List.Item as='li' value='-'>
+                                Ignacio Borges : 099177339 <br />
+                                Ex compañero de TCS
+                            </List.Item>
+                            {/* <List.Item as='li' value='-'>
+                                                        ---
+                                                    </List.Item> */}
+
+                        </List.Item>
+                    </List.Item>
                 </List>
 
             </div>

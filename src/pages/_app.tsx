@@ -13,7 +13,7 @@ const BundleBootstrap = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bo
 const Bootcss = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css";
 const FullStackCss = '../styles/fullstack.module.scss'
 const anonymous = "anonymous";
-const jQuery = '';
+
 const MyApp = ({ Component, pageProps }: AppProps) => {
 
     useLayoutEffect(() => {

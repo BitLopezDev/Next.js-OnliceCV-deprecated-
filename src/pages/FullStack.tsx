@@ -6,7 +6,7 @@ import Section3 from '../components/Sections/Section3';
 import { Section4 } from '../components/Sections/Section4';
 import { Section5 } from '../components/Sections/Section5';
 import Head from 'next/head';
-import './../scripts/scripts';
+//import './../scripts/scripts';
 import './../../node_modules/bootstrap/dist/css/bootstrap.css';
 const FullStack = () => {
     return (

@@ -5,7 +5,7 @@ import Modals from '../Modals/Modals';
 import Headf from '../Head/Headf';
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import Script from 'next/script';
-import Common from '../../Hooks/Common';
+//import Common from '../../Hooks/Common';
 
 
 type LayoutProps = {
@@ -33,7 +33,7 @@ const Layout = ({ children }: LayoutProps) => {
 
 
             <Container text>
-        <main id="GlobalMain">
+                <main id="GlobalMain">
                     {children}
 
 

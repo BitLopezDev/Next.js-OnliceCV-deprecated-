@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-
+import { List, Icon } from 'semantic-ui-react';
 import Logo from '../../../public/assets/users/Santiago/imágenes/Web/circle.png';
 import GitHub from '../../../public/assets/users/system/GitHub.svg';
 import GitHubOrg from '../../../public/assets/users/system/Org.png';
@@ -35,13 +35,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse flex-row-reverse" id="contentnavbar">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/TheBitlopez" target="_blank"><Image
-                src={GitHub} height={35} alt="Mi GitHub" /></a>
+              <a className="nav-link" href="https://github.com/TheBitlopez" target="_blank">
+                <Image
+                  src={GitHub} height={35} alt="Mi GitHub" />
+                {/* <Icon name='github' size='big' /> */}
+
+              </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" href="https://www.linkedin.com/in/santiago-comesa%C3%B1a-l%C3%B3pez-464059258"
-                target="_blank"><Image src={LinkedIn} height={35} alt="Mi LinkedIn" /></a>
+                target="_blank">
+
+                <Image src={LinkedIn} height={35} alt="Mi LinkedIn" />
+
+
+              </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="https://github.com/santiagocomesanalopez" target="_blank"><Image
