@@ -6,14 +6,14 @@ import Section3 from '../components/Sections/Section3';
 import { Section4 } from '../components/Sections/Section4';
 import { Section5 } from '../components/Sections/Section5';
 import Head from 'next/head';
-import './../scripts/scripts';
+//import './../scripts/scripts';
 import './../../node_modules/bootstrap/dist/css/bootstrap.css';
 const FullStack = () => {
     return (
         <>
-        <Head>
-            <title>CV Online | Web Development</title>
-        </Head>
+            <Head>
+                <title>CV Online | Web Development</title>
+            </Head>
             <Layout>
                 <Section1 />
                 <Section2 >
@@ -33,7 +33,7 @@ const FullStack = () => {
                 </Section2>
                 <Section3 />
                 <Section4 />
-                <Section5 />
+                {/* <Section5 /> */}
 
             </Layout>
         </>

@@ -6,7 +6,7 @@ import PHP_OOP from './../../../Public/assets/users/Santiago/credenciales/NextU/
 import HTML5 from './../../../Public/assets/users/Santiago/credenciales/NextU/HTML5.png';
 import JavaScript from './../../../Public/assets/users/Santiago/credenciales/NextU/JavaScript.png';
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import { cargarBadges, cargadoDOMfullstack } from './../../scripts/sections/section1';
+//import { cargarBadges, cargadoDOMfullstack } from './../../scripts/sections/section1';
 
 //import './../../scripts/common';
 /*import './../../scripts/Libs/bootstrap';
@@ -18,7 +18,7 @@ import './../../scripts/index';*/
 const Section1 = () => {
     useLayoutEffect(() => {
         // require("bootstrap/dist/js/bootstrap.bundle.min.js");
-        cargadoDOMfullstack();
+        //cargadoDOMfullstack();
     })
     return (
         <React.Fragment>
