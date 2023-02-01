@@ -28,7 +28,7 @@ const JSaPRoute = () => {
                 </Item>
             </Item.Group>
             <div style={{ 'overflow': 'scroll', maxHeight: 200 }}>
-                <h4>Cursos relevantes de la ruta:</h4>
+                <h4>Algunos cursos relevantes de la ruta:</h4>
 
                 <table className="table table-striped" >
                     <thead>

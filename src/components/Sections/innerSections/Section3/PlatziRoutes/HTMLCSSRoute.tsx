@@ -32,7 +32,7 @@ const HTMLCSSRoute = () => {
 
             <div style={{ 'overflow': 'scroll', maxHeight: 340 }}>
 
-                <h4>Cursos relevantes de la ruta:</h4>
+                <h4>Algunos cursos relevantes de la ruta:</h4>
 
                 <table className="table table-striped" >
                     <thead>
@@ -60,7 +60,7 @@ const HTMLCSSRoute = () => {
                         </tr>
                         <tr>
                             <td><Image src="https://static.platzi.com/media/achievements/badge-preprocesadores-8c2ed161-d4f1-4d08-bb9e-9e741cdd539d.png" width={26} /></td>
-
+                            <td>Curso de Preprocesadores de CSS</td>
                             <td>0% |  {/*  <a href='' target='_blank'>ver certificado</a>*/}</td>
 
 
@@ -81,31 +81,7 @@ const HTMLCSSRoute = () => {
 
                             <td>8% |  {/*  <a href='' target='_blank'>ver certificado</a>*/}</td>
                         </tr>
-                        <tr>
-                            <td><Image src="" width={26} /></td>
-                            <td></td>
-                            <td>0% |  <a href='' target='_blank'>ver certificado</a></td>
-                        </tr>
-                        <tr>
-                            <td><Image src="" width={26} /></td>
-                            <td></td>
-                            <td>0% |  <a href='' target='_blank'>ver certificado</a></td>
-                        </tr>
-                        <tr>
-                            <td><Image src="" width={26} /></td>
-                            <td></td>
-                            <td>0% |  <a href='' target='_blank'>ver certificado</a></td>
-                        </tr>
-                        <tr>
-                            <td><Image src="" width={26} /></td>
-                            <td></td>
-                            <td>0% |  <a href='' target='_blank'>ver certificado</a></td>
-                        </tr>
-                        <tr>
-                            <td><Image src="" width={26} /></td>
-                            <td></td>
-                            <td>0% |  <a href='' target='_blank'>ver certificado</a></td>
-                        </tr>
+
 
 
 

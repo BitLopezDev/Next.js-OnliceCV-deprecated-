@@ -13,7 +13,7 @@ type LayoutProps = {
 }
 const Layout = ({ children }: LayoutProps) => {
     return (
-        <>
+        <React.Fragment>
             {/* <Script src={"./../../scripts/common.js"} ></Script>*/}
 
             {/* <Script src="./scripts/Libs/bootstrap.bundle.js" /> */}
@@ -41,7 +41,7 @@ const Layout = ({ children }: LayoutProps) => {
 
             </Container>
 
-        </>
+        </React.Fragment>
     );
 };
 export default Layout;

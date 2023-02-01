@@ -41,7 +41,7 @@ window.onerror = function (msg, url, lineNo, columnNo, error) {
 
 function cargadoDOMAny() {
     document.getElementById("cerrarModal").click();
-    alert('Hola');
+    
     //cerrarModal
     // $('#ElModal').modal({ show: true});
     /*if (lady = 3) {

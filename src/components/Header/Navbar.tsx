@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { List, Icon } from 'semantic-ui-react';
-import Logo from '../../../public/assets/users/Santiago/imágenes/Web/circle.png';
+import Logo from '../../../public/assets/users/Santiago/imágenes/Logo/BasicRound.png';
 import GitHub from '../../../public/assets/users/system/GitHub.svg';
 import GitHubOrg from '../../../public/assets/users/system/Org.png';
 import LinkedIn from '../../../public/assets/users/system/LinkedIn.svg';
@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse flex-row-reverse" id="contentnavbar">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/TheBitlopez" target="_blank">
+              <a className="nav-link" href="https://github.com/BitLopezDev" target="_blank">
                 <Image
                   src={GitHub} height={35} alt="Mi GitHub" />
                 {/* <Icon name='github' size='big' /> */}

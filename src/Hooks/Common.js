@@ -43,7 +43,7 @@ const common = () => {
 
         function cargadoDOMAny() {
             document.getElementById("cerrarModal").click();
-            // alert('Hola');
+            
             //cerrarModal
             // $('#ElModal').modal({ show: true});
             /*if (lady = 3) {
