@@ -23,6 +23,7 @@ const TheHead = ({
             <meta name="keywords" content="Santiago Comesaña, CV Online, desarrollador" />
             <meta name="author" content="Santiago Comesaña López" />
             <meta name="robots" content="index, nofollow, noarchive" />
+            <meta content="width=device-width, initial-scale=1" name="viewport" />
             <meta httpEquiv="expires" content="1000" />
             <meta property="og:site_name" content={globalMeta.siteName} />
             <meta property="og:url" content={canonicalUrl} />

@@ -30,13 +30,15 @@ const Section6 = () => {
 
             <center>
 
-                <canvas id="line-chart" width="800" height="450"></canvas> <br /><br />
+                <canvas id="line-chart" style={{ maxHeight: 450 }} ></canvas> <br /><br />
                 <div className="row">
                     <div className="col-sm-6"><canvas id="frontend" width="800" height="450"></canvas></div>
                     <div className="col-sm-6"><canvas id="backend" width="800" height="450"></canvas></div>
 
 
                 </div>
+                <br />
+
 
             </center>
 

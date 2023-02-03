@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Image, Item, Button, Header, Icon, Modal } from 'semantic-ui-react';
 //import Image from 'next/image';
 import './../../../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import { Modal2016 } from './Modal2016';
+import { DiplomaModal } from './../DiplomaModal';
 //import certificado from './../../../../public/assets/users/Santiago/credenciales/NextU/Certificado.png';
 import Certificado from './../../../../../public/assets/users/Santiago/credenciales/NextU/Certificado.png';
 import HTML5 from './../../../../../public/assets/users/Santiago/credenciales/NextU/HTML5.png';
@@ -24,7 +24,7 @@ const WebDev2016 = () => {
             <Item.Group>
                 <Item>
                     <Item.Image size='tiny'  >
-                        <Modal2016 />
+                        <DiplomaModal which={'Web2016'} />
                     </Item.Image>
 
                     <Item.Content>

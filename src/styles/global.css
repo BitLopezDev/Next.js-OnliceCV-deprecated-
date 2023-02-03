@@ -265,3 +265,17 @@ border-bottom-left-radius: 3px;*/
 }
 
 /* //////////////////////////  ///////////////////////////// */
+
+#line-chart {
+    width: 800px;
+    height: 500px;
+}
+
+/*@media (max-width: 600px) {
+    #line-chart {
+        width: 400px;
+        height: 300px !important;
+    }
+
+    
+}*/

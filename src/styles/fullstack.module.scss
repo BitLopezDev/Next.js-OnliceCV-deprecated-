@@ -103,20 +103,23 @@
     line-height: 80px;
 
 }*/
-@media (max-with: 840px) {
-    section .row {
-        transform: rotate(90deg);
-    }
-}
 
-@media screen and (min-with:550px) {
-    #accordion {
-        color: red;
-        min-width: 80% !important;
-        max-width: 85% !important;
-    }
 
-}
+
+// @media (max-with: 840px) {
+//     section .row {
+//         transform: rotate(90deg);
+//     }
+// }
+
+// @media screen and (min-with:550px) {
+//     #accordion {
+//         color: red;
+//         min-width: 80% !important;
+//         max-width: 85% !important;
+//     }
+
+// }
 
 /*-webkit-border-radius: 50px;
 -webkit-border-bottom-left-radius: 3px;

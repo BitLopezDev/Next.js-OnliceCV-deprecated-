@@ -2,6 +2,7 @@ import React from 'react';
 import { Image, Item } from 'semantic-ui-react'
 //import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import { FullStackModal } from './../Modals/FullStackModal';
+import { DiplomaModal } from './../../DiplomaModal';
 import Certificado from './../../../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png';
 
 const FullStackRoute = () => {
@@ -13,7 +14,7 @@ const FullStackRoute = () => {
                     <Item.Image size='tiny'  >
                         {/* <FullStackModal /> */}
                         {/* https://react.semantic-ui.com/images/wireframe/image.png */}
-                        <Image src={Object.entries(Certificado)[0].slice(1)} />
+                        <DiplomaModal which={'fullstackJS'} />
                         <h6><a href='https://platzi.com/p/santiagocomesana03/ruta/100-javascript-full-stack/diploma/detalle/' target='_blank'>Ver certificado</a></h6>
                     </Item.Image>
 
@@ -23,7 +24,12 @@ const FullStackRoute = () => {
                             <div className="progress-bar fondogradiente" style={{ width: '100%' }}>100%</div>
                         </div></Item.Meta>
                         <Item.Description>
-                            <p>En este curso Profundicé en mis conocimientos como desarrollador web conociendo Node, Webpack, Next.js, refrescando el conocimiento en bases de datos, y entrando más a profundidad en el asincronismo y las nuevas funcionalidad de JavaScript.</p>
+                            <p>En este curso Profundicé en mis conocimientos como
+                                desarrollador web conociendo Node, Webpack, Next.js,
+                                refrescando el conocimiento en bases de datos, y entrando
+                                más a profundidad en el asincronismo y las nuevas funcionalidad
+                                de JavaScript. <a href='https://platzi.com/p/santiagocomesana03/' target='_blank'>Ver perfil</a>
+                            </p>
                         </Item.Description>
                         {/* <Item.Extra>Additional Details</Item.Extra> */}
                     </Item.Content>

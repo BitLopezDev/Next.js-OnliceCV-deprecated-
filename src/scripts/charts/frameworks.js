@@ -37,6 +37,9 @@ import Chart from 'chart.js/auto';
         },
 
         options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            aspectRatio: 1,
 
             plugins: {
 

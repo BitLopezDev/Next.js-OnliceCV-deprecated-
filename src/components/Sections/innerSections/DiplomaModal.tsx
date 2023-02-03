@@ -1,7 +1,9 @@
 import React from 'react'
 import { Image, Button, Header, Icon, Modal, Dimmer } from 'semantic-ui-react'
-import Certificado from './../../../../../public/assets/users/Santiago/credenciales/NextU/Certificado.png';
-import './../../../../styles/2016Modal.module.scss';
+import CertificadoNextU from './../../../../public/assets/users/Santiago/credenciales/NextU/Certificado.png';
+import CertificadoPlatzi from './../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png';
+
+import './../../../styles/2016Modal.module.scss';
 const inlineStyle = {
   modal: {
     marginTop: '0px !important',
@@ -10,18 +12,33 @@ const inlineStyle = {
   }
 };
 
-function Modal2016() {
-  const [open, setOpen] = React.useState(false)
+function DiplomaModal(props) {
+  const [open, setOpen] = React.useState(false);
+  var certificado;
+  if (props.which === 'Web2016') {
+    certificado = Object.entries(CertificadoNextU)[0].slice(1);
+    console.log(`certificado = ${certificado}`)
+
+
+
+
+  } else if (props.which === 'fullstackJS') {
+    certificado = Object.entries(CertificadoPlatzi)[0].slice(1);
+
+  }
+
 
   return (
     <center>
+
+
       <Modal
         dimmer={Dimmer}
         basic
         open={open}
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
-        trigger={<Image src={Object.entries(Certificado)[0].slice(1)} />}
+        trigger={<Image src={Object.entries(certificado)[0].slice(1)} />}
         style={inlineStyle.modal}>
         <br /> <br />
 
@@ -29,7 +46,7 @@ function Modal2016() {
           <center>
             <br />
             <hr />
-            <Image src={Object.entries(Certificado)[0].slice(1)} />
+            <Image src={Object.entries(certificado)[0].slice(1)} />
           </center>
         </Modal.Content>
         <Modal.Actions>
@@ -44,4 +61,4 @@ function Modal2016() {
   )
 }
 
-export { Modal2016 };
+export { DiplomaModal };
