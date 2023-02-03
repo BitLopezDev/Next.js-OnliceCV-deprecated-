@@ -18,7 +18,7 @@ const FrontendReactRoute = () => {
                     <Item.Content>
                         <Item.Header as='a'>FrontEnd con React.js | 2023</Item.Header>
                         <Item.Meta> <div className="progress">
-                            <div className="progress-bar fondogradiente" style={{ width: '14%' }}>14%</div>
+                            <div className="progress-bar fondogradiente" style={{ width: '18%' }}>18%</div>
                         </div></Item.Meta>
                         <Item.Description>
                             <p>En este curso Profundizo en mis conocimientos en React.js con mejor manejo de estado, de React Router, y mucho más.</p>
@@ -39,16 +39,14 @@ const FrontendReactRoute = () => {
                         </tr>
                     </thead>
                     <tbody>
+
+
                         <tr>
-                            <td><Image src="https://static.platzi.com/media/achievements/badge-piezas-clousures-scope-javascript-af54a63d-00d6-42e3-96c3-731028480418.png" width={26} /></td>
-                            <td>Curso de Closures y Scope en JavaScript</td>
-                            <td>0% |  {/*  <a href='' target='_blank'>ver certificado</a>*/}</td>
+                            <td><Image src="https://static.platzi.com/media/achievements/reactjs-patrones-render_badge-3c77e155-b04a-4c95-ac61-e2b6d2d5b92e.png" width={26} /></td>
+                            <td>Curso de React.js: Patrones de Render y Composición</td>
+                            <td>100% |    <a href='https://platzi.com/p/santiagocomesana03/curso/2457-react-patrones-render/diploma/detalle/' target='_blank'>ver certificado</a></td>
                         </tr>
-                        <tr>
-                            <td><Image src="https://static.platzi.com/media/achievements/badge-manipulacion-dom-js-68f056c0-11d4-4533-8c75-693db60d85f8.png" width={26} /></td>
-                            <td>Curso de Manipulción del DOM</td>
-                            <td>0% |  {/*  <a href='' target='_blank'>ver certificado</a>*/}</td>
-                        </tr>
+
                         <tr>
                             <td><Image src="https://static.platzi.com/media/achievements/react-a4cc5125-0dee-4ec4-a3e3-f1d799973cfd.png" width={26} /></td>
                             <td>Manejo profesional del estado en React.js</td>

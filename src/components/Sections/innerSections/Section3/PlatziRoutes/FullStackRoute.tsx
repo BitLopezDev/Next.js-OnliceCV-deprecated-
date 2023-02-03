@@ -2,6 +2,8 @@ import React from 'react';
 import { Image, Item } from 'semantic-ui-react'
 //import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import { FullStackModal } from './../Modals/FullStackModal';
+import Certificado from './../../../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png';
+
 const FullStackRoute = () => {
     return (
         <React.Fragment>
@@ -11,17 +13,17 @@ const FullStackRoute = () => {
                     <Item.Image size='tiny'  >
                         {/* <FullStackModal /> */}
                         {/* https://react.semantic-ui.com/images/wireframe/image.png */}
-                        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        <h6>(Click en certificado para verlo)</h6>
+                        <Image src={Object.entries(Certificado)[0].slice(1)} />
+                        <h6><a href='https://platzi.com/p/santiagocomesana03/ruta/100-javascript-full-stack/diploma/detalle/' target='_blank'>Ver certificado</a></h6>
                     </Item.Image>
 
                     <Item.Content>
                         <Item.Header as='a'>Full Stack Developer con JavaScript | 2023</Item.Header>
                         <Item.Meta> <div className="progress">
-                            <div className="progress-bar fondogradiente" style={{ width: '66%' }}>66%</div>
+                            <div className="progress-bar fondogradiente" style={{ width: '100%' }}>100%</div>
                         </div></Item.Meta>
                         <Item.Description>
-                            <p>En este curso Profundicé en mis conocimientos como desarrollador web conociendo Node, Webpack, Next.js, refrescando el conocimiento en bases de datos, y entrando más a profundidad en el asíncronismo y las nuevas funcionalidad de JavaScript.</p>
+                            <p>En este curso Profundicé en mis conocimientos como desarrollador web conociendo Node, Webpack, Next.js, refrescando el conocimiento en bases de datos, y entrando más a profundidad en el asincronismo y las nuevas funcionalidad de JavaScript.</p>
                         </Item.Description>
                         {/* <Item.Extra>Additional Details</Item.Extra> */}
                     </Item.Content>
@@ -68,7 +70,7 @@ const FullStackRoute = () => {
                         <tr>
                             <td><Image src='https://static.platzi.com/media/achievements/piezas-profesional-nextjs_badge-c9a806c6-e240-45da-81da-c206b0611e84.png' width={26} /></td>
                             <td>Curso Profesional de Next.js</td>
-                            <td>0% | {/*  <a href='' target='_blank'>ver certificado</a>*/}</td>
+                            <td>100% |  <a href='https://platzi.com/p/santiagocomesana03/curso/2707-profesional-nextjs/diploma/detalle/' target='_blank'>ver certificado</a></td>
                         </tr>
                         <tr>
                             <td><Image src='https://static.platzi.com/media/achievements/badge-fundamentos-de-bases-de-datos-cc5eff2a-a7e0-4110-af5d-a47b628611da.png' width={26} /></td>

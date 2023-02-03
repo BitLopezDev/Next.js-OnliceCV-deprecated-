@@ -19,7 +19,7 @@ const Web3 = () => {
                         <Item.Content>
                             <Item.Header as='a'>Desarrollo Web3 | 2023</Item.Header>
                             <Item.Meta> <div className="progress">
-                                <div className="progress-bar fondogradiente" style={{ width: '14%' }}>14%</div>
+                                <div className="progress-bar fondogradiente" style={{ width: '0%' }}>0%</div>
                             </div></Item.Meta>
                             <Item.Description>
                                 <p> Si algo aprendí en informática es que hay que adelantarse, no dejarse adelantar. En este curso me adentro a la nueva versión de la Web que se nos aproxima y que, muy posiblemente, sea el futuro de internet tal y como la concemos, así como el de las ciberempresas del futuro.</p>
