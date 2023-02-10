@@ -27,7 +27,7 @@ const Section6 = () => {
     return (
 
         <React.Fragment>
-
+            <br /> <br />
             <center>
 
                 <canvas id="line-chart" style={{ maxHeight: 450 }} ></canvas> <br /><br />
