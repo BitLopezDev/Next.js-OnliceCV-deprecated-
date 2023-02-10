@@ -77,7 +77,7 @@ const Section4 = () => {
             </Grid>
             <br />
 
-            <hr />
+
             <br />
             <div className="card w-60" style={{ width: '100%', backgroundColor: 'white !important' }} >
                 <div className="card-img-top d-flex align-items-center ">

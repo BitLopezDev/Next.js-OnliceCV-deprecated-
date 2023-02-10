@@ -8,7 +8,10 @@ import { FullStackNextRoute } from './innerSections/Section3/PlatziRoutes/FullSt
 import { HTMLCSSRoute } from './innerSections/Section3/PlatziRoutes/HTMLCSSRoute';
 
 import { JSaPRoute } from './innerSections/Section3/PlatziRoutes/JSaPRoute';
-import { Web3 } from './innerSections/Section3/PlatziRoutes/Web3';
+// import { Web3 } from './innerSections/Section3/PlatziRoutes/Web3';
+
+import { BackEndPHP } from './innerSections/Section3/PlatziRoutes/BackEndPHP';
+
 
 
 
@@ -22,7 +25,7 @@ import './../../scripts/index';*/
 
 function hideElement(segment) {
     console.log(segment);
-    const segmentsArray = ['FSJS', 'FDR', 'FSN', 'HCaP', 'JaP', 'Web3',]
+    const segmentsArray = ['FSJS', 'FDR', 'FSN', 'HCaP', 'JaP', 'BcndPHP']
 
     if (document.getElementById(segment).classList.contains("seesconde")) {
         document.getElementById(segment).classList.remove('seesconde');
@@ -99,17 +102,25 @@ class Section3 extends Component {
                                 onClick={this.handleItemClick}
                                 segment='HCaP'
                             />
+
                             <Menu.Item
                                 name='JavaScript a profundidad'
                                 active={activeItem === 'JavaScript a profundidad'}
                                 onClick={this.handleItemClick}
                                 segment='JaP'
                             />
-                            <Menu.Item
+
+                            {/* <Menu.Item
                                 name='Desarrollo Web3'
                                 active={activeItem === 'Desarrollo Web3'}
                                 onClick={this.handleItemClick}
                                 segment='Web3'
+                            /> */}
+                            <Menu.Item
+                                name='Backend con PHP'
+                                active={activeItem === 'Backend con PHP'}
+                                onClick={this.handleItemClick}
+                                segment='BcndPHP'
                             />
                         </Menu>
                     </Grid.Column>
@@ -129,19 +140,16 @@ class Section3 extends Component {
 
                         <Segment id='HCaP' className='seesconde' style={{ marginTop: 0 }}>
 
-
-
-
-
-
-
                             <HTMLCSSRoute />
                         </Segment>
                         <Segment id='JaP' className='seesconde' style={{ marginTop: 0 }}>
                             <JSaPRoute />
                         </Segment>
-                        <Segment id='Web3' className='seesconde' style={{ marginTop: 0 }}>
+                        {/* <Segment id='Web3' className='seesconde' style={{ marginTop: 0 }}>
                             <Web3 />
+                        </Segment> */}
+                        <Segment id='BcndPHP' className='seesconde' style={{ marginTop: 0 }}>
+                            <BackEndPHP />
                         </Segment>
                     </Grid.Column>
                 </Grid>

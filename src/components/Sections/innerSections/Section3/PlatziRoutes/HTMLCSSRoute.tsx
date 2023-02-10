@@ -16,7 +16,7 @@ const HTMLCSSRoute = () => {
                     </Item.Image>
 
                     <Item.Content>
-                        <Item.Header as='a'>Full Stack Developer con Next.js | 2023</Item.Header>
+                        <Item.Header as='a'>HTML y CSS a profundidad | 2023</Item.Header>
                         <Item.Meta> <div className="progress">
                             <div className="progress-bar fondogradiente" style={{ width: '10%' }}>10%</div>
                         </div></Item.Meta>
@@ -30,7 +30,7 @@ const HTMLCSSRoute = () => {
 
 
 
-            <div style={{ 'overflow': 'scroll', maxHeight: 340 }}>
+            <div style={{ 'overflow': 'scroll', maxHeight: 170 }}>
 
                 <h4>Algunos cursos relevantes de la ruta:</h4>
 

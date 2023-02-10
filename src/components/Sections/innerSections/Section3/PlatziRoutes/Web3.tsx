@@ -28,7 +28,7 @@ const Web3 = () => {
                         </Item.Content>
                     </Item>
                 </Item.Group>
-                <div style={{ 'overflow': 'scroll', maxHeight: 155 }}>
+                <div style={{ 'overflow': 'scroll', maxHeight: 170 }}>
                     <h4>Algunos cursos relevantes de la ruta:</h4>
 
                     <table className="table table-striped" >

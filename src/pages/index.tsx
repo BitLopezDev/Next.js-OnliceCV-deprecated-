@@ -73,7 +73,7 @@ function HomePage() {
                                                 <h5>Educación Formal:</h5>
                                                 <List.Item as='ol'>
                                                     <List.Item as='li' value='-'>
-                                                        Sexo Ingeniería (2020)
+                                                        Sexto Ingeniería (2020)
                                                     </List.Item>
                                                     <List.Item as='li' value='-'>
                                                         Sexto Medicina (2022)
@@ -104,7 +104,7 @@ function HomePage() {
                                                 <h5>Credenciales de Development:</h5>
                                                 <List.Item as='ol'>
                                                     <List.Item as='li' value='-'>
-                                                        Full Stack Web Developer con JavaScript | TO BE
+                                                        Full Stack Web Developer con JavaScript | 2023
                                                     </List.Item>
 
                                                     <List.Item as='li' value='-'>
@@ -134,10 +134,10 @@ function HomePage() {
                                                 <h5>Credenciales en Ciberseguridad:</h5>
                                                 <List.Item as='ol'>
                                                     <List.Item as='li' value='-'>
-                                                        Ciberseguridad para empresas (2023)
+                                                        Ciberseguridad para empresas | 2023
                                                     </List.Item>
                                                     <List.Item as='li' value='-'>
-                                                        Curso de preparación para norma 27001 TO BE
+                                                        Curso de preparación para norma 27001 | TO BE
                                                     </List.Item>
 
                                                 </List.Item>
@@ -165,7 +165,7 @@ function HomePage() {
 
                                             {/*  */}
                                             <List.Item as='li' value='*'>
-                                                <h5>Habilidades:</h5>
+                                                <h5>Otras habilidades:</h5>
                                                 <List.Item as='ol'>
                                                     <List.Item as='li' value='-'>
                                                         Buen organizador
@@ -177,7 +177,7 @@ function HomePage() {
                                                         Buen escucha
                                                     </List.Item>
                                                     <List.Item as='li' value='-'>
-                                                        Buen manejo de Microsoft Word
+                                                        Buen manejo de Microsoft Word y Windows
                                                     </List.Item>
 
                                                 </List.Item>
