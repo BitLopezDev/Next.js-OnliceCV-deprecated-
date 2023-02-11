@@ -71,7 +71,7 @@ const BackEndPHP = () => {
                             <td><Image src="https://static.platzi.com/media/achievements/badges-poo-513deb20-a5bd-40a7-b97a-c36dc772d512.png" width={26} /></td>
                             <td>Curso de Programación Orientada a Objetos: POO</td>
 
-                            <td>100% |   <a href='' target='_blank'>ver certificado</a></td>
+                            <td>100% |   <a href='https://platzi.com/p/santiagocomesana03/curso/1474-course/diploma/detalle/' target='_blank'>ver certificado</a></td>
 
 
 
