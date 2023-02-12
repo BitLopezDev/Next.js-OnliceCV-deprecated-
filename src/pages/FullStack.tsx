@@ -44,3 +44,4 @@ const FullStack = () => {
 }
 
 export default FullStack;
+//TODO: Difs between sections: Code stinks. Refactor: generate abstractions.

@@ -59,7 +59,8 @@ function HomePage() {
                                 </p>
                                 <br />
                                 <h5>Ciberseguridad:</h5>
-                                <p>Quisiera, en esta área, trabajar empresa no muy grande en la ue pudiera ocuparme de <strong>Endpoint Protection</strong> , <strong>Firewall de red</strong>, <strong>NIPS/HIPS</strong>, <strong>GPO de Windows</strong>, configuración de reglas <strong>DLP</strong> análisis de software potencialmente malicioso, e investigación en caso de incidentes. <br />
+                                <p>En este área tengo una aspiración particular: trabajar empresa no muy grande en la que pudiera estar a cargo de de una, varias o todas las siguientes responsabilidades: <strong>Endpoint Protection</strong> , <strong>Firewall de red</strong>, <strong>NIPS/HIPS</strong>, <strong>GPO de Windows</strong>, configuración de reglas <strong>DLP</strong> análisis de software potencialmente malicioso, e investigación en caso de incidentes. <br />
+                                Adolezco de ambición -a toda honra-, pero estoy seguro de estar a la altura.
                                     A su vez, estaría encantado de aportar mi experiencia en mantenimiento de PCs. <br />
                                     Si se tratase de una gran compañía, quisisera un puesto en el que tenga oportunidad de absorber tanto conocimiento como me sea posible, para poder mejorar en esta área, y poder rendir exámenes para las certificaciones internacionales teniendo experiencia.
 
@@ -108,7 +109,7 @@ function HomePage() {
                                                     </List.Item>
 
                                                     <List.Item as='li' value='-'>
-                                                        Frontend web developer con JavaScript | 2022
+                                                        Frontend Web developer con JavaScript | 2022
                                                     </List.Item>
                                                     <List.Item as='li' value='-'>
                                                         Web Developer | 2016
