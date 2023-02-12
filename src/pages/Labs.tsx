@@ -3,7 +3,7 @@ import Layout from '../components/Layout/Layout';
 // import { Section4 } from '../components/Sections/Section4';
 // import { Section6 } from '../components/Sections/Section6';
 
-import { CommonRoute } from '../components/Sections/innerSections/Section3/PlatziRoutes/commonRoutes/common';
+import { CommonRoute } from '../components/Sections/innerSections/Section3/PlatziRoutes/commonRoutes/commonLabs';
 
 
 import Head from 'next/head';

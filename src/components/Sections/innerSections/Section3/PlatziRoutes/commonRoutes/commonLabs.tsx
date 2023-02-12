@@ -1,12 +1,12 @@
 import React from 'react';
-import { Image, Item } from 'semantic-ui-react'
+import { Image, Item } from 'semantic-ui-react';
+import { HeadRoute } from './RoutesAbstract';
+
+
 //import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import { FullStackModal } from './../Modals/FullStackModal';
-import { DiplomaModal } from './../../DiplomaModal';
-import Certificado from './../../../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png';
-import { HeadRoute } from './commonRoutes/RoutesAbstract';
-const FullStackRoute = () => {
-    const description = "En este curso Profundicé en mis conocimientos como desarrollador web conociendo Node, Webpack, Next.js, refrescando el conocimiento en bases de datos, y entrando más a profundidad en el asincronismo y las nuevas funcionalidad de JavaScript. <a href='https://platzi.com/p/santiagocomesana03/' target='_blank'>Ver perfil</a>";
+import { FullStackModal } from '../../Modals/FullStackModal';
+const CommonRoute = () => {
+    const description = "Esto es una descripción descriptiva";
     /* 
     ['Name', 'Image', 'certification', "completion"]
     */
@@ -77,11 +77,12 @@ const FullStackRoute = () => {
     return (
 
         <>
-            <HeadRoute which={"fullstackJS"} route={"Full Stack Developer con JavaScript"} year={"2023"} description={description} completion={100} coursesArray={coursesArray} diplomaurl={'https://platzi.com/p/santiagocomesana03/ruta/100-javascript-full-stack/diploma/detalle/'} />
+            <HeadRoute cert={"https://react.semantic-ui.com/images/wireframe/image.png"} route={"LabsRoute"} year={"2025"} description={description} completion={95} coursesArray={coursesArray} />
         </>
 
     );
 
+
 }
 
-export { FullStackRoute };
+export { CommonRoute };

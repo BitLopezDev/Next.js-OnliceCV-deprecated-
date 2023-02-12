@@ -18,9 +18,9 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 
     useLayoutEffect(() => {
         require("bootstrap/dist/js/bootstrap.bundle.min.js");
-        require("../scripts/common.js");
+      /*  require("../scripts/common.js");
         require("../scripts/fullstack.js");
-        require("../scripts/Libs/jquery-3.6.3.min.js");
+        require("../scripts/Libs/jquery-3.6.3.min.js");*/
         // require("../styles/index.css");
         // require("../styles/global.css");
 

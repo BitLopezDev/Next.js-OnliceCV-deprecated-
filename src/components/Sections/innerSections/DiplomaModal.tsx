@@ -1,5 +1,6 @@
 import React from 'react'
-import { Image, Button, Header, Icon, Modal, Dimmer } from 'semantic-ui-react'
+import { Image, Button, Header, Icon, Modal, Dimmer } from 'semantic-ui-react';
+import { useRouter } from 'next/router';
 import CertificadoNextU from './../../../../public/assets/users/Santiago/credenciales/NextU/Certificado.png';
 import CertificadoPlatzi from './../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png';
 
@@ -15,16 +16,21 @@ const inlineStyle = {
 function DiplomaModal(props) {
   const [open, setOpen] = React.useState(false);
   var certificado;
-  if (props.which === 'Web2016') {
-    certificado = Object.entries(CertificadoNextU)[0].slice(1);
-    console.log(`certificado = ${certificado}`)
+ 
 
 
+  switch (props.which) {
+    case 'Web2016':
+      certificado = Object.entries(CertificadoNextU)[0].slice(1);
+      break;
+    case 'fullstackJS':
+      certificado = Object.entries(CertificadoPlatzi)[0].slice(1);
 
+      break;
 
-  } else if (props.which === 'fullstackJS') {
-    certificado = Object.entries(CertificadoPlatzi)[0].slice(1);
-
+    default:
+      certificado = 'https://react.semantic-ui.com/images/wireframe/image.png';
+      break;
   }
 
 
@@ -38,7 +44,7 @@ function DiplomaModal(props) {
         open={open}
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
-        trigger={<Image src={Object.entries(certificado)[0].slice(1)} />}
+        trigger={<Image src={certificado} />}
         style={inlineStyle.modal}>
         <br /> <br />
 
@@ -46,7 +52,7 @@ function DiplomaModal(props) {
           <center>
             <br />
             <hr />
-            <Image src={Object.entries(certificado)[0].slice(1)} />
+            <Image src={certificado} />
           </center>
         </Modal.Content>
         <Modal.Actions>
