@@ -1,10 +1,6 @@
 import React from 'react';
 import { Image, Item } from 'semantic-ui-react'
 //import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import { FullStackModal } from '../Modals/FullStackModal';
-const BackEndPHP = () => {
-    return (
-        <React.Fragment>
 
             <Item.Group>
                 <Item>
