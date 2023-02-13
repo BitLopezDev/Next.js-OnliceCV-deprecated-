@@ -5,7 +5,7 @@ import { HeadRoute } from './RoutesAbstract';
 
 
 //import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import { FullStackModal } from '../../Modals/FullStackModal';
+
 const CommonRoute = () => {
     const description = "Descripción";
     /* 

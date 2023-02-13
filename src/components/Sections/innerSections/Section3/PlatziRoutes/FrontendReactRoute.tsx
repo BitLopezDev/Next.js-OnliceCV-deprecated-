@@ -2,7 +2,7 @@ import React from 'react';
 
 import { HeadRoute } from './commonRoutes/RoutesAbstract';
 //import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import { FullStackModal } from '../Modals/FullStackModal';
+
 const FrontendReactRoute = () => {
     const description = "Esto es una descripción descriptiva";
     /* 
