@@ -1,12 +1,8 @@
 import React from 'react';
-import { Image, Item } from 'semantic-ui-react'
-//import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import { FullStackModal } from './../Modals/FullStackModal';
-import { DiplomaModal } from './../../DiplomaModal';
-import Certificado from './../../../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png';
+
 import { HeadRoute } from './commonRoutes/RoutesAbstract';
 const FullStackRoute = () => {
-    const description = "En este curso Profundicé en mis conocimientos como desarrollador web conociendo Node, Webpack, Next.js, refrescando el conocimiento en bases de datos, y entrando más a profundidad en el asincronismo y las nuevas funcionalidad de JavaScript. <a href='https://platzi.com/p/santiagocomesana03/' target='_blank'>Ver perfil</a>";
+    const description = "En este curso Profundicé en mis conocimientos como desarrollador web conociendo Node, Webpack, Next.js, refrescando el conocimiento en bases de datos, y entrando más a profundidad en el asincronismo y las nuevas funcionalidad de JavaScript. ";
     /* 
     ['Name', 'Image', 'certification', "completion"]
     */

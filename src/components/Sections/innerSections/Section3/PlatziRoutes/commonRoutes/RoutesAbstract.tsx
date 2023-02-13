@@ -12,8 +12,16 @@ const HeadRoute = ({ ...props }) => {
         let image = course[1];
         let certification = course[2];
         let completion = course[3];
+        let maylink;
+        if (completion !== '100%') {
+            maylink = "En curso";
 
-        table.push(<tr> <td><Image src={image} width={26} /></td><td>{name}</td> <td>{completion} |  <a href={certification} target='_blank'>ver certificado</a></td></tr>);
+        } else {
+            maylink = "Ver certificado";
+
+        }
+
+        table.push(<tr> <td><Image src={image} width={26} /></td><td>{name}</td> <td>{completion} |  <a href={certification} target='_blank'>{maylink}</a></td></tr>);
         // console.log(course[0] + course[1] + course[2]);
 
 
@@ -42,7 +50,7 @@ const HeadRoute = ({ ...props }) => {
                             <div className="progress-bar fondogradiente" style={{ width: props.completion + '%' }}>{props.completion}%</div>
                         </div></Item.Meta>
                         <Item.Description>
-                            <p>{props.description}</p>
+                            <p>{props.description} <a href='https://platzi.com/p/santiagocomesana03/' target='_blank'>Ver perfil</a></p>
                         </Item.Description>
                         {/* <Item.Extra>Additional Details</Item.Extra> */}
                     </Item.Content>

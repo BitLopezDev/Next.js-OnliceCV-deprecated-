@@ -26,7 +26,7 @@ const Section4 = () => {
 
         <React.Fragment>
 
-            <br /> <br />
+            <br /> <br /><br /><br />
             <center>
                 <h2>
                     Sobre quienes me formaron:</h2></center>
