@@ -7,39 +7,39 @@ import { HeadRoute } from './RoutesAbstract';
 //import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import { FullStackModal } from '../../Modals/FullStackModal';
 const CommonRoute = () => {
-    const description = "Esto es una descripción descriptiva";
+    const description = "Descripción";
     /* 
     ['Name', 'Image', 'certification', "completion"]
     */
     let coursesArray = [
         [
             'Name',
-            'Image', 
-            'certification', 
+            'Image',
+            'certification',
             'completion',
         ],
         [
             'Name',
-            'Image', 
-            'certification', 
+            'Image',
+            'certification',
             'completion',
         ],
         [
             'Name',
-            'Image', 
-            'certification', 
+            'Image',
+            'certification',
             'completion',
         ],
         [
             'Name',
-            'Image', 
-            'certification', 
+            'Image',
+            'certification',
             'completion',
         ],
         [
             'Name',
-            'Image', 
-            'certification', 
+            'Image',
+            'certification',
             'completion',
         ],
 

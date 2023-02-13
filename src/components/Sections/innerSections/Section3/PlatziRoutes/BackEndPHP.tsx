@@ -5,7 +5,7 @@ import React from 'react';
 import { HeadRoute } from './commonRoutes/RoutesAbstract';
 
 const BackEndPHP = () => {
-    const description = "En este curso Profundicé en mis conocimientos como desarrollador web conociendo Node, Webpack, Next.js, refrescando el conocimiento en bases de datos, y entrando más a profundidad en el asincronismo y las nuevas funcionalidad de JavaScript. ";
+    const description = "En este curso refresco y profundizo mis conocimientos en PHP, PHP OOP, manejo de sesiones, cookies, conexiones a bases de datos. También incorporo a mis habilidades el Manejo de Laravel, Symfony, Inertia y Vue.js para Single Page Applications ";
     /* 
     ['Name', 'Image', 'certification', "completion"]
     */

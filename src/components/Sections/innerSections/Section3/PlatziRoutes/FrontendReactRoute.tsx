@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Item } from 'semantic-ui-react';
+
 import { HeadRoute } from './commonRoutes/RoutesAbstract';
 //import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import { FullStackModal } from '../Modals/FullStackModal';
