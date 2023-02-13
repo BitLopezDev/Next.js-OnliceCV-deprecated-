@@ -8,7 +8,7 @@ import Chart from 'chart.js/auto';
         data: {
             labels: ["JavaScript for Backend", "PHP", "Python",],
             datasets: [{
-                label: "Cuota de mercado",
+                label: "Cuota de mercado (%)",
                 backgroundColor: ["#efd81d", "#697ab1", "#204c73"],
                 data: [2, 77.7, 1.3,]
             }]

@@ -85,8 +85,8 @@ class Section3 extends Component {
                                 segment='FSJS'
                             />
                             <Menu.Item
-                                name='Frontend con React'
-                                active={activeItem === 'Frontend con React'}
+                                name='Frontend con React.js'
+                                active={activeItem === 'Frontend con React.js'}
                                 onClick={this.handleItemClick}
                                 segment='FDR'
                             />

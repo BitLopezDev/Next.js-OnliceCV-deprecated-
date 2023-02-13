@@ -8,7 +8,7 @@ import Section1 from '../components/Sections/Section1';
 import Head from 'next/head';
 //import './../scripts/scripts';
 import './../../node_modules/bootstrap/dist/css/bootstrap.css';
-const FullStack = () => {
+const Security = () => {
     return (
         <>
             <Head>
@@ -22,4 +22,4 @@ const FullStack = () => {
     );
 }
 
-export default FullStack;
+export default Security;

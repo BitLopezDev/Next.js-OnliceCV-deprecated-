@@ -4,7 +4,7 @@ import Navbar from '../Header/Navbar';
 import Modals from '../Modals/Modals';
 import Headf from '../Head/Headf';
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import Script from 'next/script';
+
 //import Common from '../../Hooks/Common';
 
 
@@ -13,7 +13,7 @@ type LayoutProps = {
 }
 const Layout = ({ children }: LayoutProps) => {
     return (
-        <React.Fragment>
+        <React.Fragment >
             {/* <Script src={"./../../scripts/common.js"} ></Script>*/}
 
             {/* <Script src="./scripts/Libs/bootstrap.bundle.js" /> */}
@@ -33,7 +33,7 @@ const Layout = ({ children }: LayoutProps) => {
 
 
             <Container text>
-                <main id="GlobalMain">
+                <main id="GlobalMain" >
                     {children}
 
 
@@ -41,7 +41,7 @@ const Layout = ({ children }: LayoutProps) => {
 
             </Container>
             <footer className='mt-5 p-4 fondogradiente text-black text-center'>
-               
+
             </footer>
 
         </React.Fragment>

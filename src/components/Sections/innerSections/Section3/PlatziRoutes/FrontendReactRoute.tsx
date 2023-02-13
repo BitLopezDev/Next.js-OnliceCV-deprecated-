@@ -4,7 +4,7 @@ import { HeadRoute } from './commonRoutes/RoutesAbstract';
 //import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
 
 const FrontendReactRoute = () => {
-    const description = "Esto es una descripción descriptiva";
+    const description = "En esta ruta profundizo mi conocimiento sobre REACT.JS: aprendo en profundidad sobre el estado de React, los hooks y completo mi conocimiento sobre la librería de Meta.";
     /* 
     ['Name', 'Image', 'certification', "completion"]
     */
@@ -39,7 +39,7 @@ const FrontendReactRoute = () => {
     return (
 
         <>
-            <HeadRoute which={""} route={"LabsRoute"} year={"2025"} description={description} completion={95} coursesArray={coursesArray} />
+            <HeadRoute which={""} route={"Frontend con React.js"} year={"TO BE"} description={description} completion={95} coursesArray={coursesArray} />
         </>
 
     );

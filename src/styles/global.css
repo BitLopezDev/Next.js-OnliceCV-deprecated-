@@ -8,15 +8,71 @@
     /*linear-gradient(90deg, rgba(27,164,216,1) 0%, rgba(67,127,227,1) 35%, rgba(151,53,252,1) 100%)*/
 }
 
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+
+    }
+
+    50% {
+        background-position: 400% 0;
+
+    }
+
+    100% {
+        background-position: 0 0;
+
+    }
+}
+
+
+
 .textogradiente {
     font-weight: 600;
     color: transparent !important;
-    font-size: 100px;
+    /*font-size: 100px;*/
     background-image: var(--gradiente) !important;
     background-clip: text;
     -webkit-background-clip: text;
 
 }
+
+.antigradienttext {
+    font-weight: 600;
+    color: transparent !important;
+    /*font-size: 100px;*/
+    background-image: var(--antigradiente) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.coloredshadow {
+
+    padding: 16px 32px;
+
+
+}
+
+.coloredshadow::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -9px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: var(--gradiente);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 15s linear infinite;
+
+
+}
+
+
 
 .seesconde {
     display: none !important;
@@ -91,10 +147,13 @@ main {
     border-top: 0 !important;
     margin-bottom: auto !important;
     margin-top: 0 !important;
-    z-index: 100 !important;
+    z-index: 1 !important;
     width: 100%;
+
     /* */
 }
+
+
 
 /*#GlobalMain> {
     -webkit-border-radius: 50px;

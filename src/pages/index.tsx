@@ -39,7 +39,7 @@ function HomePage() {
 
 
                 <center>
-                    <h1><i>Santiago Comesaña López</i></h1>
+                    <h1 className="antigradienttext"><i>Santiago Comesaña López</i></h1>
                     <h4>CV Online</h4>
                     <br />
                 </center>
@@ -60,12 +60,12 @@ function HomePage() {
                                 <br />
                                 <h5>Ciberseguridad:</h5>
                                 <p>En este área tengo una aspiración particular: trabajar empresa no muy grande en la que pudiera estar a cargo de de una, varias o todas las siguientes responsabilidades: <strong>Endpoint Protection</strong> , <strong>Firewall de red</strong>, <strong>NIPS/HIPS</strong>, <strong>GPO de Windows</strong>, configuración de reglas <strong>DLP</strong> análisis de software potencialmente malicioso, e investigación en caso de incidentes. <br />
-                                Adolezco de ambición -a toda honra-, pero estoy seguro de estar a la altura.
+                                    Adolezco de ambición -a toda honra-, pero estoy seguro de estar a la altura.
                                     A su vez, estaría encantado de aportar mi experiencia en mantenimiento de PCs. <br />
                                     Si se tratase de una gran compañía, quisisera un puesto en el que tenga oportunidad de absorber tanto conocimiento como me sea posible, para poder mejorar en esta área, y poder rendir exámenes para las certificaciones internacionales teniendo experiencia.
 
                                 </p>
-                                <Rail position='left' style={{ width: 400, height: '600' }}>
+                                <Rail className='coloredshadow' position='left' style={{ width: 400, height: '600' }}>
                                     <Segment>
                                         <h3>Datos Rápidos:</h3><br />
                                         <List as='ol'>

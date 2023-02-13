@@ -8,7 +8,7 @@ import Chart from 'chart.js/auto';
         data: {
             labels: ["JavaScript for Frontend", "Flash", "None",],
             datasets: [{
-                label: "Population (millions)",
+                label: "Cuota de mercado (%)",
                 backgroundColor: ["#efd81d", "#d90003", "#3cba9f"],
                 data: [98.2, 1.5, 1.8,]
             }]

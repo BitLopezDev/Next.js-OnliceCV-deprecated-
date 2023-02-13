@@ -11,7 +11,7 @@ import Chart from 'chart.js/auto';
             labels: ["Feb 22", "Mar", "Apr", "May", "June", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec", "Jan 23", "Feb"],
             datasets: [{
                 data: [2.5, 2.6, 2.8, 2.9, 2.9, 2.9, 2.9, 3, 3, 3, 3.1, 3.2, 3.3, 3.3],
-                label: "React",
+                label: "React.js",
                 borderColor: "#5ed3f3",
                 fill: false,
 
