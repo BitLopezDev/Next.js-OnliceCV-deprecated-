@@ -39,7 +39,7 @@ const FrontendReactRoute = () => {
     return (
 
         <>
-            <HeadRoute which={""} route={"Frontend con React.js"} year={"TO BE"} description={description} completion={95} coursesArray={coursesArray} />
+            <HeadRoute which={"FrontendReact"} route={"Frontend con React.js"} year={"TO BE"} description={description} completion={18} coursesArray={coursesArray} diplomaurl={''} />
         </>
 
     );

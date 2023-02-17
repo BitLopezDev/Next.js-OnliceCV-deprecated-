@@ -87,7 +87,7 @@ const BackEndPHP = () => {
     return (
 
         <React.Fragment>
-            <HeadRoute which={""} route={"Backend con PHP"} year={"TO BE"} description={description} completion={26} coursesArray={coursesArray} diplomaurl={'https://platzi.com/p/santiagocomesana03/ruta/100-javascript-full-stack/diploma/detalle/'} />
+            <HeadRoute which={"BackendPHP"} route={"Backend con PHP"} year={"TO BE"} description={description} completion={26} coursesArray={coursesArray} diplomaurl={''} />
         </ React.Fragment>
 
     );
