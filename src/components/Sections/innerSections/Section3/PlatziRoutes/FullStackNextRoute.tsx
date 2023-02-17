@@ -45,7 +45,7 @@ const FullStackNextRoute = () => {
     return (
 
         <>
-            <HeadRoute which={""} route={"Full Stack Developer con Next.js"} year={"TO BE"} description={description} completion={21} coursesArray={coursesArray} />
+            <HeadRoute which={"Fullstacknext"} route={"Full Stack Developer con Next.js"} year={"TO BE"} description={description} completion={21} coursesArray={coursesArray} diplomaurl={''} />
         </>
 
     );

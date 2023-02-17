@@ -42,7 +42,7 @@ const HTMLCSSRoute = () => {
     ];
     return (
         <>
-            <HeadRoute which={""} route={"HTML y CSS a Profundidad"} year={"TO BE"} description={description} completion={10} coursesArray={coursesArray} />
+            <HeadRoute which={"HTMLCSS"} route={"HTML y CSS a Profundidad"} year={"TO BE"} description={description} completion={10} coursesArray={coursesArray} diplomaurl={''} />
         </>
 
     );

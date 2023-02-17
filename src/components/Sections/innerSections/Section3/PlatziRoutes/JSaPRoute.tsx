@@ -68,7 +68,7 @@ const JSaPRoute = () => {
     return (
 
         <>
-            <HeadRoute which={""} route={"JavaScript a Profundidad"} year={"TO BE"} description={description} completion={15} coursesArray={coursesArray} />
+            <HeadRoute which={"JavaScriptProf"} route={"JavaScript a Profundidad"} year={"TO BE"} description={description} completion={15} coursesArray={coursesArray} diplomaurl={''} />
         </>
 
     );

@@ -2,7 +2,7 @@ import React from 'react'
 import { Image, Button, Header, Icon, Modal, Dimmer } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
 import CertificadoNextU from './../../../../public/assets/users/Santiago/credenciales/NextU/Certificado.png';
-import CertificadoPlatzi from './../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png';
+import CertificadoFullStackJS from './../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png';
 
 import './../../../styles/2016Modal.module.scss';
 const inlineStyle = {
@@ -12,20 +12,48 @@ const inlineStyle = {
     marginRight: 'auto'
   }
 };
+function ObjectSlice(value) {
+
+  if (typeof value === 'object') {
+    return Object.entries(value)[0].slice(1);
+
+  } else {
+
+    return null;
+  }
+
+}
 
 function DiplomaModal(props) {
   const [open, setOpen] = React.useState(false);
   var certificado;
- 
 
+  var nodiploma = '';
 
   switch (props.which) {
     case 'Web2016':
-      certificado = Object.entries(CertificadoNextU)[0].slice(1);
+      certificado = ObjectSlice(CertificadoNextU);
+
       break;
     case 'fullstackJS':
-      certificado = Object.entries(CertificadoPlatzi)[0].slice(1);
+      certificado = ObjectSlice(CertificadoFullStackJS);
 
+
+      break;
+    case 'HTMLCSS':
+      certificado = ObjectSlice(nodiploma) || 'https://static.platzi.com/media/learningpath/badges/08261d05-1b55-4c23-b9b4-8427d4247835.jpg';
+      break;
+    case 'BackendPHP':
+      certificado = ObjectSlice(nodiploma) || 'https://static.platzi.com/media/learningpath/badges/824ba606-359a-453b-925e-e1b81bed8785.jpg';
+      break;
+    case 'FrontendReact':
+      certificado = ObjectSlice(nodiploma) || 'https://static.platzi.com/media/learningpath/badges/1690f090-fcce-4456-9e56-2882c2e68a8d.jpg';
+      break;
+    case 'JavaScriptProf':
+      certificado = ObjectSlice(nodiploma) || 'https://static.platzi.com/media/learningpath/badges/f6885a96-a017-4123-a503-c776de5223de.jpg';
+      break;
+    case 'Fullstacknext':
+      certificado = ObjectSlice(nodiploma) || 'https://static.platzi.com/media/learningpath/badges/4c39108f-765c-4d0c-ac66-addf1bf1730a.jpg';
       break;
 
     default:

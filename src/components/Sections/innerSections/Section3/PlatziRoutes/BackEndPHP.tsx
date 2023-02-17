@@ -43,7 +43,7 @@ const BackEndPHP = () => {
             'Curso Intermedio de PHP: Cookies, Sesiones y Modularización',
             'https://static.platzi.com/media/achievements/badge-intermediophp-cookies-da5e3c79-4ef9-4198-9244-ba2d88c039c1.png',
             '#',
-            '0%',
+            '55%',
 
         ],
         [
@@ -87,7 +87,7 @@ const BackEndPHP = () => {
     return (
 
         <React.Fragment>
-            <HeadRoute which={""} route={"Backend con PHP"} year={"TO BE"} description={description} completion={26} coursesArray={coursesArray} diplomaurl={'https://platzi.com/p/santiagocomesana03/ruta/100-javascript-full-stack/diploma/detalle/'} />
+            <HeadRoute which={"BackendPHP"} route={"Backend con PHP"} year={"TO BE"} description={description} completion={26} coursesArray={coursesArray} diplomaurl={''} />
         </ React.Fragment>
 
     );

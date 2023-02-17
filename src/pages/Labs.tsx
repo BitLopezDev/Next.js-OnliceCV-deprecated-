@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Layout from '../components/Layout/Layout';
 // import { Section4 } from '../components/Sections/Section4';
-// import { Section6 } from '../components/Sections/Section6';
-
+// 
+import { Icongen } from '../components/Sections/innerSections/Section1/iconGen';
 import { CommonRoute } from '../components/Sections/innerSections/Section3/PlatziRoutes/commonRoutes/commonLabs';
 
 
@@ -29,8 +29,8 @@ const FullStack = () => {
             <Layout>
 
 
-
-                <CommonRoute />
+                <Icongen />
+                {/* <CommonRoute /> */}
 
             </Layout>
         </>

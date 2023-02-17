@@ -41,7 +41,7 @@ const HeadRoute = ({ ...props }) => {
                         {/* https://react.semantic-ui.com/images/wireframe/image.png */}
                         {/* ./../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png */}
                         <DiplomaModal which={props.which} />
-                        <h6><a href={props.diplomaurl} target='_blank'>Ver certificado</a></h6>
+                        <h6><a href={props.diplomaurl} className={props.diplomaurl === '' && 'seesconde'} target='_blank'>Ver certificado</a></h6>
                     </Item.Image>
 
                     <Item.Content>
