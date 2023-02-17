@@ -47,7 +47,9 @@ const Section6 = () => {
                             <Image className="img-fluid" src="https://static.platzi.com/cdn-cgi/image/width=1024,quality=50,format=auto/media/achievements/badge-curso-frontend-developer-825407d1-49b1-4c9b-90c4-eee793720ede.png" alt="Platzi" />
                         </div>
 
+
                         <p className="card-text"><strong>React.js, jQuery y Bootstrap:</strong> Estando familiarizado con tecnologías tales como React.js, Bootstrap y jQuery, puedo incorporarme fácilmente a la gran mayoría de proyectos de desarrollo web. </p>
+
                     </div>
 
 
@@ -79,7 +81,10 @@ const Section6 = () => {
                             <Image className="img-fluid" src="https://static.platzi.com/media/learningpath/badges/824ba606-359a-453b-925e-e1b81bed8785.jpg" alt="PHP" />
                         </div>
 
+
                         <p className="card-text"><strong>Backend con PHP: </strong>Mi formación en PHP me brinda las herramientas para enfrentarme a los desafíos del mundo del Backend de casi el 78% de aplicaciones web que, sumados a mi ormación en JavaScript, me permiten cubrir la cuota casi del 80% de los desarrollos Backend.</p>
+
+
                     </div>
 
 
