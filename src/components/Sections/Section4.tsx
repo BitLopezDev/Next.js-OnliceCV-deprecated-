@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Card, Icon, Grid, Image } from 'semantic-ui-react'
+import React, { Component } from 'react';
+import { Card, Icon, Grid, Image } from 'semantic-ui-react';
 import './../../styles/fullstack.module.scss';
 import NextU from './../../../public/assets/users/system/NextU.png';
 import Platzi from './../../../public/assets/users/system/platzi.png';

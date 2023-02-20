@@ -12,7 +12,7 @@ const HTMLCSSRoute = () => {
             'Curso Definitivo de HTML y CSS',
             'https://static.platzi.com/media/achievements/badges-html-css-afa64acb-64a4-486d-96a5-f930fbb7ee32.png',
             '#',
-            '0%',
+            '41%',
         ],
         [
             'Curso de Responsive Design: Maquetación Mobile First',
@@ -42,7 +42,7 @@ const HTMLCSSRoute = () => {
     ];
     return (
         <>
-            <HeadRoute which={"HTMLCSS"} route={"HTML y CSS a Profundidad"} year={"TO BE"} description={description} completion={10} coursesArray={coursesArray} diplomaurl={''} />
+            <HeadRoute which={"HTMLCSS"} route={"HTML y CSS a Profundidad"} year={"TO BE"} description={description} completion={11} coursesArray={coursesArray} diplomaurl={''} />
         </>
 
     );

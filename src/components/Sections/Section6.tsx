@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-import { Card, Icon, Grid, Image } from 'semantic-ui-react'
+import React from 'react'
+import { Image } from 'semantic-ui-react'
 import './../../styles/fullstack.module.scss';
 import '../../scripts/charts/frameworks.js';
 import '../../scripts/charts/backend.js';
 import '../../scripts/charts/frontend.js';
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import { Doughnut } from "react-chartjs-2";
+
+
 // ./../../assets/users/Santiago/credenciales/NextU/PHP_OOP.png
 // import { FullStackRoute } from './innerSections/Section3/PlatziRoutes/FullStackRoute';
 // import { FrontendReactRoute } from './innerSections/Section3/PlatziRoutes/FrontendReactRoute';

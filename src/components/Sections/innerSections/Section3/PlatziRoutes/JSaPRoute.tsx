@@ -13,7 +13,7 @@ const JSaPRoute = () => {
             'Taller Práctico de JavaScript: Matemáticas y Estadística Básica',
             'https://static.platzi.com/media/achievements/practico-javascript-matematicas_piezas_badge-06073d4a-f0f1-4ddb-9a2a-eabd9bc2a6fd.png',
             '#',
-            '7%',
+            '73%',
         ],
         [
             'Curso Intermedio de Programación Orientada a Objetos en JavaScript',
@@ -68,7 +68,7 @@ const JSaPRoute = () => {
     return (
 
         <>
-            <HeadRoute which={"JavaScriptProf"} route={"JavaScript a Profundidad"} year={"TO BE"} description={description} completion={15} coursesArray={coursesArray} diplomaurl={''} />
+            <HeadRoute which={"JavaScriptProf"} route={"JavaScript a Profundidad"} year={"TO BE"} description={description} completion={21} coursesArray={coursesArray} diplomaurl={''} />
         </>
 
     );
