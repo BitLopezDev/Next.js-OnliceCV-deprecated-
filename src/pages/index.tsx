@@ -20,7 +20,7 @@ const items = [
         description:
             'Vea mi currículum como estudiante y entusiasta de la cyberseguriad',
         meta: 'Estudiante, entusiasta',
-        href: '#',
+        href: 'Security',
 
     },
 ];

@@ -353,6 +353,8 @@ footer {
 
 */
 
+/*       /////////////// Section 7 ///////////////      */
+
 .tile-progress {
     background-color: #303641;
     color: #fff;
@@ -435,3 +437,108 @@ footer {
     max-height: 315px;
     min-height: 315px;
 }
+
+/*       /////////////// Section 8 ///////////////      */
+
+
+.progress-section {
+    text-align: center;
+    padding: 80px 0px;
+
+}
+
+.progress-section h1 {
+    margin-bottom: 70px;
+
+}
+
+.progress-diamond {
+    margin: auto;
+    background: var(--gradiente);
+    width: 120px;
+    height: 120px;
+    transform: rotate(45deg);
+    position: relative;
+}
+
+.progress-diamond h2 {
+    line-height: 120px;
+    text-align: center;
+    transform: rotate(-45deg);
+    color: white;
+
+}
+
+.progress-diamond:before {
+    position: absolute;
+    content: "";
+    /* border: solid 5px #595959; */
+    border: solid 5px black;
+    border-width: 5px 0px 0px 5px;
+    /*Change these for porcentage*/
+    /* width: 30px;
+    height: 30px; */
+    /**/
+    top: -9px;
+    left: -9px;
+    bottom: -9px;
+    right: -9px;
+    z-index: 10;
+}
+
+.progress-diamond:after {
+    position: absolute;
+    content: "";
+    border: solid 5px var(--niceblue);
+    border-width: 5px 5px 5px 5px;
+    width: 140px;
+    height: 140px;
+    top: -9px;
+    left: -9px;
+    bottom: -9px;
+    right: -9px;
+}
+
+
+
+.progress-diamond-one:before {
+
+    width: 73px;
+    height: 73px;
+
+}
+
+
+
+.progress-diamond-two:before {
+
+    width: 140px;
+    height: 140px;
+
+}
+
+
+
+
+
+
+
+
+
+.progress-diamond-three:before {
+
+    width: 140px;
+    height: 140px;
+
+}
+
+
+.progress-diamond-zero:before {
+
+    width: 140px;
+    height: 140px;
+
+}
+
+
+/* //////////////////     Section 9    //////////////////// */
