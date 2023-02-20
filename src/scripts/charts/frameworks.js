@@ -12,7 +12,7 @@ import Chart from 'chart.js/auto';
             datasets: [{
                 data: [2.5, 2.6, 2.8, 2.9, 2.9, 2.9, 2.9, 3, 3, 3, 3.1, 3.2, 3.3, 3.3],
                 label: "React.js",
-                borderColor: "#5ed3f3",
+                borderColor: "#2997dc",
                 fill: false,
 
             }, {
@@ -24,13 +24,13 @@ import Chart from 'chart.js/auto';
             }, {
                 data: [78.3, 78, 77.3, 77.3, 77.3, 77.4, 77.4, 77.4, 77.4, 77.5, 77.1, 77.6, 77.6, 77.6,],
                 label: "jQuery",
-                borderColor: "#0c63a7",
+                borderColor: "#5271e8",
                 fill: false
             },
             {
                 data: [22.6, 22.4, 21.9, 21.7, 21.7, 21.7, 21.7, 21.7, 21.7, 21.7, 21.7, 21.5, 21.5, 21.3, 21.3,],
                 label: "Bootstrap",
-                borderColor: "#8713f4",
+                borderColor: "#6f39c9",
                 fill: false
             },
             ]

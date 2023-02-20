@@ -91,6 +91,32 @@ const Section6 = () => {
                 </div>
                 <br />
 
+                <div className="card w-60" style={{ width: '100%', backgroundColor: 'white !important' }}>
+                    <div className="card-img-top d-flex align-items-center">
+                        <div>
+                            <Image className="img-fluid" src="https://static.platzi.com/media/learningpath/badges/4214325e-8854-466a-a1cf-49231a2566d9.jpg" alt="Server Admin" width={87} />
+                        </div>
+
+
+
+                        <div className="container mt-3" style={{ textAlign: "left" }}>
+                            <h5>Adminisración de Servidores</h5>
+                            <div className="progress">
+                                <div className="progress-bar fondogradiente" style={{ width: "35%" }}>35%</div>
+                            </div>
+                            <p>Esta ruta me da los conocimiemientos necesarios para instalar servicios web y configurarlos para entornos de producción, configurar herramientas para monitorizar procesos y servicios y administrar paquetes acorde a la distribución. </p>
+                            <br />
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <br />
+
+
+
 
 
 

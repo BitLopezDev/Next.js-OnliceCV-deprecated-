@@ -6,11 +6,11 @@ import Chart from 'chart.js/auto';
     new Chart(document.getElementById("backend"), {
         type: 'pie',
         data: {
-            labels: ["JavaScript for Backend", "PHP", "Python",],
+            labels: ["JavaScript for Backend", "PHP", "Python", "Otros"],
             datasets: [{
                 label: "Cuota de mercado (%)",
-                backgroundColor: ["#efd81d", "#697ab1", "#204c73"],
-                data: [2, 77.7, 1.3,]
+                backgroundColor: ["#efd81d", "#5c69eb", "#497ae5", "#3889e0"],
+                data: [2, 77.7, 1.3, 19,]
             }]
         },
         options: {
