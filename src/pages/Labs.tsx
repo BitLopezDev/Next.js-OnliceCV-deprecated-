@@ -11,9 +11,7 @@ import Head from 'next/head';
 
 //import '../scripts/reactvueangular.js';
 const FullStack = () => {
-    const chart = () => {
-       
-    }
+    
 
     return (
         <>

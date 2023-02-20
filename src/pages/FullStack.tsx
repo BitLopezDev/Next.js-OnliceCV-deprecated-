@@ -4,12 +4,10 @@ import Section1 from '../components/Sections/Section1';
 import Section2 from '../components/Sections/Section2';
 import Section3 from '../components/Sections/Section3';
 import { Section4 } from '../components/Sections/Section4';
-// import { Section5 } from '../components/Sections/Section5';
+
 import { Section6 } from '../components/Sections/Section6';
 import Head from 'next/head';
-//require('./../scripts/mails/nodemailer');
 
-//import './../scripts/scripts';
 import './../../node_modules/bootstrap/dist/css/bootstrap.css';
 const FullStack = () => {
     return (

@@ -8,12 +8,9 @@ import Headf from './../components/Head/Headf';
 import { useLayoutEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.css'
 import React from 'react';
-import Script from 'next/script';
-const BundleBootstrap = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.lady.bundle.min.js.";
-const Bootcss = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css";
 const FullStackCss = '../styles/fullstack.module.scss'
 const SecurityCss = '../styles/security.module.scss'
-const anonymous = "anonymous";
+
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
 

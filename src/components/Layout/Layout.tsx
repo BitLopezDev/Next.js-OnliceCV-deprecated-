@@ -5,9 +5,6 @@ import Modals from '../Modals/Modals';
 import Headf from '../Head/Headf';
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 
-//import Common from '../../Hooks/Common';
-
-
 type LayoutProps = {
     children?: React.ReactNode
 }
