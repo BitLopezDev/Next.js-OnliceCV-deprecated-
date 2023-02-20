@@ -1,14 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { List, Icon } from 'semantic-ui-react';
 import Logo from '../../../public/assets/users/Santiago/imágenes/Logo/BasicRound.png';
 import GitHub from '../../../public/assets/users/system/GitHub.svg';
 import GitHubOrg from '../../../public/assets/users/system/Org.png';
 import LinkedIn from '../../../public/assets/users/system/LinkedIn.svg';
 // import './../../../../node_modules/bootstrap/dist/css/bootstrap.bundle.css';
-import { Router, useRouter } from 'next/router'
-import { Menu, Container } from 'semantic-ui-react';
+
 
 
 const Navbar = () => {
@@ -35,7 +33,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse flex-row-reverse" id="contentnavbar">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/BitLopezDev" target="_blank">
+              <a className="nav-link" href="https://github.com/BitLopezDev" target="_blank" rel="noreferrer">
                 <Image
                   src={GitHub} height={35} alt="Mi GitHub" />
                 {/* <Icon name='github' size='big' /> */}
@@ -45,7 +43,7 @@ const Navbar = () => {
 
             <li className="nav-item">
               <a className="nav-link" href="https://www.linkedin.com/in/santiago-comesa%C3%B1a-l%C3%B3pez-464059258"
-                target="_blank">
+                target="_blank" rel="noreferrer">
 
                 <Image src={LinkedIn} height={35} alt="Mi LinkedIn" />
 
@@ -53,7 +51,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/santiagocomesanalopez" target="_blank"><Image
+              <a className="nav-link" href="https://github.com/santiagocomesanalopez" target="_blank" rel="noreferrer"><Image
                 src={GitHubOrg} height={35} alt="Mi GitHub de organización" /></a>
             </li>
 

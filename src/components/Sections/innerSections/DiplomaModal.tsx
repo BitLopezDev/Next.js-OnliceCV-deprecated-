@@ -72,7 +72,7 @@ function DiplomaModal(props) {
         open={open}
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
-        trigger={<Image src={certificado} />}
+        trigger={<Image src={certificado} alt="No se pudo cargar el certificado"/>}
         style={inlineStyle.modal}>
         <br /> <br />
 
@@ -80,7 +80,7 @@ function DiplomaModal(props) {
           <center>
             <br />
             <hr />
-            <Image src={certificado} />
+            <Image src={certificado} alt="No se pudo cargar el certificado" />
           </center>
         </Modal.Content>
         <Modal.Actions>

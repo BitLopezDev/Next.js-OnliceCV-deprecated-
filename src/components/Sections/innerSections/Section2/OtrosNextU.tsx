@@ -22,18 +22,18 @@ const OtrosNextU = () => {
                 <div className=" " style={{ color: 'black' }}>
                     <a className="btn fondoniceblue border-0 "
                         href="https://www.credential.net/5b308137-854e-4d5b-8df3-e8f260ecb065"
-                        target="_blank">Herramientas de seguridad</a>
+                         target="_blank"  rel="noreferrer">Herramientas de seguridad</a>
                     <a className="btn fondoniceblue border-0 "
-                        href="https://www.credential.net/9f2a679f-fd77-4dbd-ab69-e4e788709300" target="_blank">Hardware
+                        href="https://www.credential.net/9f2a679f-fd77-4dbd-ab69-e4e788709300"  target="_blank" rel="noreferrer" >Hardware
                         del computador</a>
                     <a className="btn fondoniceblue border-0 "
-                        href="https://www.credential.net/b94c958e-df5c-4de4-843e-7596230a6851" target="_blank">Soporte
+                        href="https://www.credential.net/b94c958e-df5c-4de4-843e-7596230a6851"  target="_blank" rel="noreferrer">Soporte
                         técnico y troubleshooting</a>
                     <a className="btn fondoniceblue border-0 "
-                        href="https://www.credential.net/57163fba-f91b-4939-81b8-43deb9dfecac" target="_blank">Software y
+                        href="https://www.credential.net/57163fba-f91b-4939-81b8-43deb9dfecac"  target="_blank" rel="noreferrer">Software y
                         sistemas operativos</a>
                     <a className="btn fondoniceblue border-0 "
-                        href="https://www.credential.net/profile/santiagocomesanalopez/wallet" target="_blank">Vea todos
+                        href="https://www.credential.net/profile/santiagocomesanalopez/wallet"  target="_blank" rel="noreferrer">Vea todos
                         mis cursos de NextU</a>
 
                 </div>

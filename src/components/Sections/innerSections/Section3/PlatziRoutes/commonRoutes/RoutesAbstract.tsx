@@ -21,7 +21,7 @@ const HeadRoute = ({ ...props }) => {
 
         }
 
-        table.push(<tr> <td><Image src={image} width={26} /></td><td>{name}</td> <td>{completion} |  <a href={certification} target='_blank'>{maylink}</a></td></tr>);
+        table.push(<tr> <td><Image src={image} width={26} alt="" /></td><td>{name}</td> <td>{completion} |  <a href={certification} target='_blank' rel="noreferrer">{maylink}</a></td></tr>);
         // console.log(course[0] + course[1] + course[2]);
 
 
@@ -41,7 +41,7 @@ const HeadRoute = ({ ...props }) => {
                         {/* https://react.semantic-ui.com/images/wireframe/image.png */}
                         {/* ./../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png */}
                         <DiplomaModal which={props.which} />
-                        <h6><a href={props.diplomaurl} className={props.diplomaurl === '' && 'seesconde'} target='_blank'>Ver certificado</a></h6>
+                        <h6><a href={props.diplomaurl} className={props.diplomaurl === '' && 'seesconde'} target='_blank' rel="noreferrer">Ver certificado</a></h6>
                     </Item.Image>
 
                     <Item.Content>
@@ -50,7 +50,7 @@ const HeadRoute = ({ ...props }) => {
                             <div className="progress-bar fondogradiente" style={{ width: props.completion + '%' }}>{props.completion}%</div>
                         </div></Item.Meta>
                         <Item.Description>
-                            <p>{props.description} <a href='https://platzi.com/p/santiagocomesana03/' target='_blank'>Ver perfil</a></p>
+                            <p>{props.description} <a href='https://platzi.com/p/santiagocomesana03/' target='_blank' rel="noreferrer">Ver perfil</a></p>
                         </Item.Description>
                         {/* <Item.Extra>Additional Details</Item.Extra> */}
                     </Item.Content>

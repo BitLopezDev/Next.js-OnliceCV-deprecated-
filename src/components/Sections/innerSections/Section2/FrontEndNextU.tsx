@@ -36,7 +36,7 @@ const FrontEndNextU = () => {
                             <h4 className="card-title">Certificado de Desarrollador Frontend con Javascript</h4>
                             <p className="card-text">Este curso me permitió actualizarme en el mundo del desarrolo web: novedades de JS como las clases y promesas, conocer frameworks/librerías como React.js, y conceptos nuevos de css como Flexbox y Grid.</p>
                             <a href="https://www.credential.net/024265d2-0d91-4c00-b8a6-08d7c8b19fef"
-                                className="btn fondogradiente border-0" target="_blank">Ver certificado</a>
+                                className="btn fondogradiente border-0" target="_blank" rel="noreferrer">Ver certificado</a>
                         </div>
                     </div>
 

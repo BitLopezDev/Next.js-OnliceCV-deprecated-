@@ -36,7 +36,7 @@ const Section4 = () => {
 
                     <Grid.Column>
                         <Card style={{ marginLeft: '-50px' }}>
-                            <Image src={Object.entries(NextU)[0].slice(1)} wrapped ui={false} />
+                            <Image src={Object.entries(NextU)[0].slice(1)} wrapped ui={false} alt="No se pudo cargar la imagen"/>
                             <Card.Content>
                                 <Card.Header>NextU</Card.Header>
                                 <Card.Meta>2015 - 2016 | 2022</Card.Meta>
@@ -55,7 +55,7 @@ const Section4 = () => {
                     </Grid.Column>
                     <Grid.Column>
                         <Card style={{ marginLeft: 50 }}>
-                            <Image src={Object.entries(Platzi)[0].slice(1)} wrapped ui={false} />
+                            <Image src={Object.entries(Platzi)[0].slice(1)} wrapped ui={false} alt="No se pudo cargar la imagen"/>
                             <Card.Content>
                                 <Card.Header>Platzi</Card.Header>
                                 <Card.Meta>2022 - 2023</Card.Meta>
