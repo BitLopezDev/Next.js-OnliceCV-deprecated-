@@ -53,12 +53,12 @@ function HomePage() {
                                 <br />
                                 <h5>Desarrollo Web:</h5>
                                 <p>Quisiera poder estar en un puesto relacionado con el desarrollo web, ya sea en <strong>Frontend</strong> como <strong>Backend</strong>: ambas áreas me encantan y ambas me generan mucha curiosidad.<br />
-                                    Estoy profundamente <strong>apasionado</strong> por <strong>Next.js</strong>, y sería maravilloso poder trabajar con esta herramienta tanto en Backend como frontend. Además, mi interés por React.js -siendo una librería muy famosa- me hace un gran candidato para trabajar en proyectos que lo empleen.
-                                    Sería un honor poder brindar mis conocimientos en ciberseguridad al área de desarrollo backend
+                                    Estoy profundamente <strong>apasionado</strong> por <strong>Next.js</strong> y <strong>Node.js</strong>. Además, mi interés por React.js -siendo una librería muy famosa- me hace un gran candidato para trabajar en proyectos que lo empleen.
+                                    Sería un placer poder brindar mis conocimientos en ciberseguridad al proyecto que se me asigne.
                                 </p>
                                 <br />
                                 <h5>Ciberseguridad:</h5>
-                                <p>En este área tengo una aspiración particular: trabajar empresa no muy grande en la que pudiera estar a cargo de de una, varias o todas las siguientes responsabilidades: <strong>Endpoint Protection</strong> , <strong>Firewall de red</strong>, <strong>NIPS/HIPS</strong>, <strong>GPO de Windows</strong>, configuración de reglas <strong>DLP</strong> análisis de software potencialmente malicioso, e investigación en caso de incidentes. <br />
+                                <p>En este área tengo una aspiración ambiciosa y particular: trabajar en una empresa no muy grande en la que pudiera estar a cargo de de una, varias o todas las siguientes responsabilidades: <strong>Endpoint Protection</strong> , <strong>Firewall de red</strong>, <strong>NIPS/HIPS</strong>, <strong>GPO de Windows</strong>, configuración de reglas <strong>DLP</strong> análisis de software potencialmente malicioso, e investigación en caso de incidentes. <br />
                                     Adolezco de ambición -a toda honra-, pero estoy seguro de estar a la altura.
                                     A su vez, estaría encantado de aportar mi experiencia en mantenimiento de PCs. <br />
                                     Si se tratase de una gran compañía, quisisera un puesto en el que tenga oportunidad de absorber tanto conocimiento como me sea posible, para poder mejorar en esta área, y poder rendir exámenes para las certificaciones internacionales teniendo experiencia.

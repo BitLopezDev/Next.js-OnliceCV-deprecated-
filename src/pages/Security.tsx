@@ -6,6 +6,7 @@ import { Section9 } from '../components/Sections/Section9';
 import Head from 'next/head';
 import './../../node_modules/bootstrap/dist/css/bootstrap.css';
 
+
 const Security = () => {
     React.useEffect(() => {
 

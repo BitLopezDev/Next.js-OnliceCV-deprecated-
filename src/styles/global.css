@@ -49,7 +49,7 @@
 
 .coloredshadow {
 
-    padding: 16px 32px;
+    padding: 32px 32px;
 
 
 }
@@ -58,11 +58,13 @@
 
     content: "";
     position: absolute;
-    top: 0;
-    left: -9px;
+    top: -12px;
+
+
+    left: -7px;
     z-index: -1;
     width: 100%;
-    height: 100%;
+    height: 103%;
     background: var(--gradiente);
     background-size: 800%;
     border-radius: 10px;
@@ -454,7 +456,7 @@ footer {
 
 .progress-diamond {
     margin: auto;
-   /* background: var(--gradiente);*/
+    /* background: var(--gradiente);*/
     width: 120px;
     height: 120px;
     transform: rotate(45deg);
