@@ -69,7 +69,7 @@ class Section3 extends Component {
                         <h2>
 
                             Estudios Técnicos en Platzi:</h2>
-                        <h6>Full Stack | JavaScript y HTML a profundidad | React | Web3</h6>
+                        <h6>Full Stack | JavaScript, HTML y CSS a profundidad | React.JS | Backend con PHP</h6>
                     </div>
                 </center>
                 <br />

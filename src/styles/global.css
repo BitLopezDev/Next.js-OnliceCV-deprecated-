@@ -454,7 +454,7 @@ footer {
 
 .progress-diamond {
     margin: auto;
-    background: var(--gradiente);
+   /* background: var(--gradiente);*/
     width: 120px;
     height: 120px;
     transform: rotate(45deg);
@@ -503,8 +503,8 @@ footer {
 
 .progress-diamond-one:before {
 
-    width: 73px;
-    height: 73px;
+    width: 46px;
+    height: 46px;
 
 }
 
@@ -512,8 +512,8 @@ footer {
 
 .progress-diamond-two:before {
 
-    width: 140px;
-    height: 140px;
+    width: 113px;
+    height: 113px;
 
 }
 

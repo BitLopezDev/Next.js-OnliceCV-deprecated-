@@ -12,7 +12,7 @@ const HTMLCSSRoute = () => {
             'Curso Definitivo de HTML y CSS',
             'https://static.platzi.com/media/achievements/badges-html-css-afa64acb-64a4-486d-96a5-f930fbb7ee32.png',
             '#',
-            '41%',
+            '43%',
         ],
         [
             'Curso de Responsive Design: Maquetación Mobile First',

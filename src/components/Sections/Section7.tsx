@@ -34,11 +34,11 @@ const Section7 = () => {
                                 <span>Estudios en Ciberinteligencia</span>
                             </div>
                             <div className="tile-progressbar">
-                                <span data-fill="0%" style={{ "width": "0%" }}></span>
+                                <span data-fill="9%" style={{ "width": "9%" }}></span>
                             </div>
                             <div className="tile-footer">
                                 <h4>
-                                    <span className="pct-counter">0</span>%
+                                    <span className="pct-counter">9</span>%
                                 </h4>
                                 <span>Platzi | Udemy</span>
                             </div>
@@ -51,11 +51,11 @@ const Section7 = () => {
                                 <span>Estudios en norma ISO/IEC 27001</span>
                             </div>
                             <div className="tile-progressbar">
-                                <span data-fill="18%" style={{ "width": "18%" }}></span>
+                                <span data-fill="6%" style={{ "width": "6%" }}></span>
                             </div>
                             <div className="tile-footer">
                                 <h4>
-                                    <span className="pct-counter">18</span>%
+                                    <span className="pct-counter">6</span>%
                                 </h4>
                                 <span>Platzi | Udemy </span>
                             </div>

@@ -30,7 +30,7 @@ const Section9 = () => {
             <div className="container mt-3">
                 <h4>Virus y Análisis dinámico bajo Windows</h4>
                 <div className="progress">
-                    <div className="progress-bar fondogradiente" style={{ width: "0%" }}>00%</div>
+                    <div className="progress-bar fondogradiente" style={{ width: "0%" }}>0%</div>
                 </div>
             </div>
             <br />
@@ -38,7 +38,7 @@ const Section9 = () => {
             <div className="container mt-3">
                 <h4>Cyber Threat Intelligence Analyst</h4>
                 <div className="progress">
-                    <div className="progress-bar fondogradiente" style={{ width: "0%" }}>00%</div>
+                    <div className="progress-bar fondogradiente" style={{ width: "0%" }}>0%</div>
                 </div>
                 <br />
             </div>
