@@ -34,8 +34,8 @@ const HeadRoute = ({ ...props }) => {
     return (
         <React.Fragment>
 
-            <Item.Group>
-                <Item>
+            <Item.Group >
+                <Item >
                     <Item.Image size='tiny'  >
                         {/* <FullStackModal /> */}
                         {/* https://react.semantic-ui.com/images/wireframe/image.png */}
@@ -57,7 +57,7 @@ const HeadRoute = ({ ...props }) => {
                 </Item>
             </Item.Group>
 
-            <div style={{ 'overflow': 'scroll', maxHeight: 170 }}>
+            <div style={{ 'overflow': 'scroll', maxHeight: 250, minHeight: 250, 'height' : '250px' }} >
                 <h4>Algunos cursos relevantes de la ruta:</h4>
 
                 <table className="table table-striped" >

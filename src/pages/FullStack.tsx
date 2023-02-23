@@ -1,11 +1,11 @@
 import * as React from 'react';
 import Layout from '../components/Layout/Layout';
-import Section1 from '../components/Sections/Section1';
-import Section2 from '../components/Sections/Section2';
-import Section3 from '../components/Sections/Section3';
-import { Section4 } from '../components/Sections/Section4';
+import IntroBubble from '../components/Sections/IntroBubble';
+import NextuCourses from '../components/Sections/NextuCourses';
+import {PlatziCourses} from '../components/Sections/PlatziCourses';
+import { PlatziNextuThanks } from '../components/Sections/PlatziNextuThanks';
 
-import { Section6 } from '../components/Sections/Section6';
+import { CoursesCards } from '../components/Sections/CoursesCards';
 import Head from 'next/head';
 
 import './../../node_modules/bootstrap/dist/css/bootstrap.css';
@@ -16,8 +16,8 @@ const FullStack = () => {
                 <title>CV Online | Web Development</title>
             </Head>
             <Layout>
-                <Section1 />
-                <Section2 >
+                <IntroBubble />
+                <NextuCourses >
 
                     {/* <div>
                         <div className="ui pointing secondary menu">
@@ -31,10 +31,10 @@ const FullStack = () => {
                             <div className="ui segment">
                                 <img src="https://react.semantic-ui.com/images/wireframe/media-paragraph.png" />
                                 </div></div> */}
-                </Section2>
-                <Section3 />
-                <Section6 />
-                <Section4 />
+                </NextuCourses>
+                <PlatziCourses />
+                <CoursesCards />
+                <PlatziNextuThanks />
                 {/* <Section5 /> */}
 
 

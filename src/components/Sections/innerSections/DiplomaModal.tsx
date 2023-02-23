@@ -55,6 +55,14 @@ function DiplomaModal(props) {
     case 'Fullstacknext':
       certificado = ObjectSlice(nodiploma) || 'https://static.platzi.com/media/learningpath/badges/4c39108f-765c-4d0c-ac66-addf1bf1730a.jpg';
       break;
+      case 'CustomNode':
+      certificado = ObjectSlice(nodiploma) || 'https://static.platzi.com/media/learningpath/badges/120643f5-377b-4b20-b223-cc793c432e9f.jpg';
+      break;
+
+      case 'CustomDBs':
+      certificado = ObjectSlice(nodiploma) || 'https://static.platzi.com/media/learningpath/badges/a1e4f4bd-bdef-4529-81c3-6ce420be925b.jpg';
+      break;
+
 
     default:
       certificado = 'https://react.semantic-ui.com/images/wireframe/image.png';

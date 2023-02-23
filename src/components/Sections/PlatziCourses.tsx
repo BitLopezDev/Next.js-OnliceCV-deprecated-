@@ -2,15 +2,17 @@ import React, { Component } from 'react'
 import { Menu, Segment, Grid } from 'semantic-ui-react'
 import './../../styles/fullstack.module.scss';
 // ./../../assets/users/Santiago/credenciales/NextU/PHP_OOP.png
-import { FullStackRoute } from './innerSections/Section3/PlatziRoutes/FullStackRoute';
-import { FrontendReactRoute } from './innerSections/Section3/PlatziRoutes/FrontendReactRoute';
-import { FullStackNextRoute } from './innerSections/Section3/PlatziRoutes/FullStackNextRoute';
-import { HTMLCSSRoute } from './innerSections/Section3/PlatziRoutes/HTMLCSSRoute';
+import { FullStackRoute } from './innerSections/PlatziCourses/PlatziRoutes/FullStackRoute';
+import { FrontendReactRoute } from './innerSections/PlatziCourses/PlatziRoutes/FrontendReactRoute';
+import { FullStackNextRoute } from './innerSections/PlatziCourses/PlatziRoutes/FullStackNextRoute';
+import { HTMLCSSRoute } from './innerSections/PlatziCourses/PlatziRoutes/HTMLCSSRoute';
+import { CustomNode } from './innerSections/PlatziCourses/PlatziRoutes/CustomNode';
+import { CustomDBs } from './innerSections/PlatziCourses/PlatziRoutes/CustomDBs';
 
-import { JSaPRoute } from './innerSections/Section3/PlatziRoutes/JSaPRoute';
-// import { Web3 } from './innerSections/Section3/PlatziRoutes/Web3';
+import { JSaPRoute } from './innerSections/PlatziCourses/PlatziRoutes/JSaPRoute';
+// import { Web3 } from './innerSections/PlatziCourses/PlatziRoutes/Web3';
 
-import { BackEndPHP } from './innerSections/Section3/PlatziRoutes/BackEndPHP';
+import { BackEndPHP } from './innerSections/PlatziCourses/PlatziRoutes/BackEndPHP';
 
 
 
@@ -25,7 +27,7 @@ import './../../scripts/index';*/
 
 function hideElement(segment) {
     console.log(segment);
-    const segmentsArray = ['FSJS', 'FDR', 'FSN', 'HCaP', 'JaP', 'BcndPHP']
+    const segmentsArray = ['FSJS', 'FDR', 'FSN', 'HCaP', 'JaP', 'BcndPHP', 'CustomDBs', 'CustomNode', ]
 
     if (document.getElementById(segment).classList.contains("seesconde")) {
         document.getElementById(segment).classList.remove('seesconde');
@@ -42,7 +44,7 @@ function hideElement(segment) {
 
 
 
-class Section3 extends Component {
+class PlatziCourses extends Component {
 
 
 
@@ -122,6 +124,18 @@ class Section3 extends Component {
                                 onClick={this.handleItemClick}
                                 segment='BcndPHP'
                             />
+                            <Menu.Item
+                                name='Bases de Datos'
+                                active={activeItem === 'Bases de Datos'}
+                                onClick={this.handleItemClick}
+                                segment='CustomDBs'
+                            />
+                            <Menu.Item
+                                name='Backend con Node.js'
+                                active={activeItem === 'Backend con Node.js'}
+                                onClick={this.handleItemClick}
+                                segment='CustomNode'
+                            />
                         </Menu>
                     </Grid.Column>
 
@@ -151,6 +165,12 @@ class Section3 extends Component {
                         <Segment id='BcndPHP' className='seesconde' style={{ marginTop: 0 }}>
                             <BackEndPHP />
                         </Segment>
+                        <Segment id='CustomDBs' className='seesconde' style={{ marginTop: 0 }}>
+                            <CustomDBs />
+                        </Segment>
+                        <Segment id='CustomNode' className='seesconde' style={{ marginTop: 0 }}>
+                            <CustomNode />
+                        </Segment>
                     </Grid.Column>
                 </Grid>
 
@@ -167,4 +187,4 @@ class Section3 extends Component {
 
 
 
-export default Section3;
+export {PlatziCourses};

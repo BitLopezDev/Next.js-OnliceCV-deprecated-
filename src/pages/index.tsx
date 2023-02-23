@@ -3,7 +3,7 @@ import Layout from '../components/Layout/Layout';
 import Head from 'next/head';
 import { Grid, Image, Rail, Segment, Card, List } from 'semantic-ui-react';
 import { LateralBar } from '../components/Index/LateralBar';
-import { Section5 } from '../components/Sections/Section5';
+import { School } from '../components/Sections/School';
 // import _JSXStyle from './../styles/global';
 const items = [
     {
@@ -196,7 +196,7 @@ function HomePage() {
                         </Grid.Column>
                     </Grid>
                     <br /><br /><br /><br />
-                    <Section5 />
+                    <School />
                 </section>
 
 

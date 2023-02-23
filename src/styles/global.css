@@ -170,7 +170,7 @@ main {
 }
 */
 
-main>#section1>div:first-child {
+main>#introbubble>div:first-child {
     -webkit-border-top-left-radius: 50px;
     -webkit-border-bottom-left-radius: 3px;
     -moz-border-radius-topleft: 50px;
@@ -181,7 +181,7 @@ main>#section1>div:first-child {
 
 }
 
-main>#section1>div:nth-child(2) {
+main>#introbubble>div:nth-child(2) {
     -webkit-border-top-right-radius: 50px;
     -webkit-border-bottom-right-radius: 50px;
     -moz-border-radius-topright: 50px;

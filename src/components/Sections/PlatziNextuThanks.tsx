@@ -21,7 +21,7 @@ import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import './../../scripts/Libs/bootstrap.bundle';
 import './../../scripts/index';*/
 
-const Section4 = () => {
+const PlatziNextuThanks = () => {
     return (
 
         <React.Fragment>
@@ -53,6 +53,7 @@ const Section4 = () => {
                             </Card.Content>
                         </Card>
                     </Grid.Column>
+                  
                     <Grid.Column>
                         <Card style={{ marginLeft: 50 }}>
                             <Image src={Object.entries(Platzi)[0].slice(1)} wrapped ui={false} alt="No se pudo cargar la imagen"/>
@@ -94,6 +95,7 @@ const Section4 = () => {
 
 
             </div>
+            <br />
             <div className="card w-60" style={{ width: '100%', backgroundColor: 'white !important' }}>
                 <div className="card-img-top d-flex align-items-center">
                     <div>
@@ -115,7 +117,7 @@ const Section4 = () => {
     );
 }
 
-export { Section4 };
+export { PlatziNextuThanks };
 
 
 

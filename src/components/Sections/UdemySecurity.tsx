@@ -20,7 +20,7 @@ import security from './../../styles/security.module.scss';
 import './../../scripts/Libs/bootstrap.bundle';
 import './../../scripts/index';*/
 
-const Section9 = () => {
+const UdemySecurity = () => {
     return (
 
         <React.Fragment>
@@ -76,7 +76,7 @@ const Section9 = () => {
     );
 }
 
-export { Section9 };
+export { UdemySecurity };
 
 
 

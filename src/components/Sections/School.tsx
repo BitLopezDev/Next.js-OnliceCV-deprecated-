@@ -21,7 +21,7 @@ import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import './../../scripts/Libs/bootstrap.bundle';
 import './../../scripts/index';*/
 
-const Section5 = () => {
+const School = () => {
     return (
 
         <React.Fragment>
@@ -43,6 +43,7 @@ const Section5 = () => {
 
                     </div>
                 </div>
+                <br />
                 <div className="card" style={{ maxWidth: 1000 }}>
                     <div className="card-body">
                         <h4 className="card-title">Sexto Medicina</h4>
@@ -61,7 +62,7 @@ const Section5 = () => {
     );
 }
 
-export { Section5 };
+export { School };
 
 
 

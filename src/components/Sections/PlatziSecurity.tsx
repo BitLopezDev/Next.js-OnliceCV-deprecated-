@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image } from 'semantic-ui-react';
-import { CourseSection8 } from './innerSections/Section8/CourseSection8';
+import { CourseSection8 } from './innerSections/BasicCourseList/CourseListBasic';
 
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 // ./../../assets/users/Santiago/credenciales/NextU/PHP_OOP.png
@@ -20,7 +20,7 @@ import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import './../../scripts/Libs/bootstrap.bundle';
 import './../../scripts/index';*/
 
-const Section8 = () => {
+const PlatziSecurity = () => {
     return (
 
         <React.Fragment>
@@ -146,7 +146,7 @@ const Section8 = () => {
     );
 }
 
-export { Section8 };
+export { PlatziSecurity };
 
 
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Image, Item, Button, Header, Icon, Modal } from 'semantic-ui-react';
 //import Image from 'next/image';
 import './../../../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import { DiplomaModal } from './../DiplomaModal';
+import { DiplomaModal } from '../DiplomaModal';
 //import certificado from './../../../../public/assets/users/Santiago/credenciales/NextU/Certificado.png';
 import Certificado from './../../../../../public/assets/users/Santiago/credenciales/NextU/Certificado.png';
 import HTML5 from './../../../../../public/assets/users/Santiago/credenciales/NextU/HTML5.png';

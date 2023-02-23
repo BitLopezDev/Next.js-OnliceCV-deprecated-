@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import { Menu, Segment } from 'semantic-ui-react'
 import './../../styles/fullstack.module.scss';
 // ./../../assets/users/Santiago/credenciales/NextU/PHP_OOP.png
-import { WebDev2016 } from './innerSections/Section2/2016';
-import { OtrosNextU } from './innerSections/Section2/OtrosNextU';
-import { FrontEndNextU } from './innerSections/Section2/FrontEndNextU';
+
+import { WebDev2016 } from './innerSections/NextuCourses/2016';
+import { OtrosNextU } from './innerSections/NextuCourses/OtrosNextU';
+import { FrontEndNextU } from './innerSections/NextuCourses/FrontEndNextU';
 
 
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
@@ -37,7 +38,7 @@ function hideElement(name, ...others) {
 
 
 
-class Section2 extends Component {
+class NextuCourses extends Component {
 
 
 
@@ -131,4 +132,4 @@ class Section2 extends Component {
 
 
 
-export default Section2;
+export default NextuCourses;

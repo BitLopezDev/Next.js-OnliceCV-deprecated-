@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import './../../styles/fullstack.module.scss';
 
@@ -11,7 +11,7 @@ import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 
 
 
-const Section1 = () => {
+const IntroBubble = () => {
    
 
     
@@ -28,7 +28,7 @@ const Section1 = () => {
                     <div className="col-sm-3 " style={{ maxWidth: 280, minHeight: 30 }}></div>
                 </div>
             </center>
-            <section id="section1" className="row justify-content-center  ">
+            <section id="introbubble" className="row justify-content-center  ">
 
                 <div id="carouselcontainer" className="col-sm-4  fondoantigradiente justify-content-center"
                     style={{ minHeight: 160, paddingTop: 30, maxWidth: 350, paddingLeft: 40 }}>
@@ -121,4 +121,4 @@ const Section1 = () => {
     );
 }
 
-export default Section1;
+export default IntroBubble;

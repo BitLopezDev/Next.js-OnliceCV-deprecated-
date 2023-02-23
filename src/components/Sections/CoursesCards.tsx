@@ -23,7 +23,7 @@ import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import './../../scripts/Libs/bootstrap.bundle';
 import './../../scripts/index';*/
 
-const Section6 = () => {
+const CoursesCards = () => {
     return (
 
         <React.Fragment>
@@ -128,7 +128,7 @@ const Section6 = () => {
     );
 }
 
-export { Section6 };
+export { CoursesCards };
 
 
 
