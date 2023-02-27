@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react';
 import Image from 'next/image';
 
-import PHP_OOP from './../../../../../Public/assets/users/Santiago/credenciales/NextU/PHP_OOP.png';
-import HTML5 from './../../../../../Public/assets/users/Santiago/credenciales/NextU/HTML5.png';
-import JavaScript from './../../../../../Public/assets/users/Santiago/credenciales/NextU/JavaScript.png';
-import CSS3 from './../../../../../Public/assets/users/Santiago/credenciales/NextU/CSS3.png';
-import XML from './../../../../../Public/assets/users/Santiago/credenciales/NextU/XML.png';
+import PHP_OOP from './../../../../../public/assets/users/Santiago/credenciales/NextU/PHP_OOP.png';
+import HTML5 from './../../../../../public/assets/users/Santiago/credenciales/NextU/HTML5.png';
+import JavaScript from './../../../../../public/assets/users/Santiago/credenciales/NextU/JavaScript.png';
+import CSS3 from './../../../../../public/assets/users/Santiago/credenciales/NextU/CSS3.png';
+import XML from './../../../../../public/assets/users/Santiago/credenciales/NextU/XML.png';
 //import './../../../../node_modules/bootstrap/dist/css/bootstrap.css';
 
 function Icongen() {
    /* var icon1;
-    var baseRoute = './../../../../../Public/assets/users/Santiago/credenciales/NextU/';
+    var baseRoute = './../../../../../public/assets/users/Santiago/credenciales/NextU/';
 
     var allBadges = [Object.entries(XML)[0].slice(1), Object.entries(CSS3)[0].slice(1), Object.entries(JavaScript)[0].slice(1), Object.entries(HTML5)[0].slice(1), Object.entries(PHP_OOP)[0].slice(1),];
 
