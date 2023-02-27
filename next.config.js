@@ -7,6 +7,9 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
+  images: {
+    unoptimized: true,
+  },
  
 
 
