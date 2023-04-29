@@ -8,6 +8,8 @@ import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 type LayoutProps = {
     children?: React.ReactNode
 }
+
+
 const Layout = ({ children }: LayoutProps) => {
     return (
         <React.Fragment >

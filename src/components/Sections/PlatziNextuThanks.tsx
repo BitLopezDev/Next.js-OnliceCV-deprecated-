@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Card, Icon, Grid, Image } from 'semantic-ui-react';
 import './../../styles/fullstack.module.scss';
 import NextU from './../../../public/assets/users/system/NextU.png';

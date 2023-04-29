@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Image from 'next/image';
 
 import PHP_OOP from './../../../../../public/assets/users/Santiago/credenciales/NextU/PHP_OOP.png';

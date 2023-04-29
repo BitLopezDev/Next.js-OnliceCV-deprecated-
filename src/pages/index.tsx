@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/Layout/Layout';
 import Head from 'next/head';
-import { Grid, Image, Rail, Segment, Card, List } from 'semantic-ui-react';
+import { Grid, Rail, Segment, Card, List } from 'semantic-ui-react';
 import { LateralBar } from '../components/Index/LateralBar';
 import { School } from '../components/Sections/School';
 // import _JSXStyle from './../styles/global';

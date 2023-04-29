@@ -1,12 +1,13 @@
 import React from 'react';
-import { List, Icon } from 'semantic-ui-react';
+import { List } from 'semantic-ui-react';
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Logo from './../../../public/assets/users/Santiago/imágenes/Logo/BasicRound.png';
-import mail from './../../../public/assets/users/system/email.png';
-import whatsapp from './../../../public/assets/users/system/whatsapp.png';
-import phone from './../../../public/assets/users/system/phone.png';
+// import mail from './../../../public/assets/users/system/email.png';
+// import whatsapp from './../../../public/assets/users/system/whatsapp.png';
+// import phone from './../../../public/assets/users/system/phone.png';
 
+//TODO: Have phone number and other data imported from file
 const LateralBar = () => {
     return (
 

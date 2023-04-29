@@ -7,8 +7,10 @@ import GitHubOrg from '../../../public/assets/users/system/Org.png';
 import LinkedIn from '../../../public/assets/users/system/LinkedIn.svg';
 // import './../../../../node_modules/bootstrap/dist/css/bootstrap.bundle.css';
 
+//TODO: Create a prop that is false by default but that if true will hide navbar
 
 
+//TODO: remove organization GitHub
 const Navbar = () => {
 
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'semantic-ui-react';
+// import { Image } from 'semantic-ui-react';
 import { CourseSection8 } from './innerSections/BasicCourseList/CourseListBasic';
 
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';

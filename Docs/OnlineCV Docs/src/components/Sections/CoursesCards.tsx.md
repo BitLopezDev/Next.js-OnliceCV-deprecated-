@@ -1,0 +1,1 @@
+Defines 'cards' for FullStack to expand on routes, courses and general knowledge.

@@ -1,6 +1,7 @@
 import React from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 
+//TODO: Work with props.
 const Modals = () => {
     return (
         <>
